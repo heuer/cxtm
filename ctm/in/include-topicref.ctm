@@ -1,0 +1,3 @@
+%include <include-topicref.sub>
+
+lars1 isa person .

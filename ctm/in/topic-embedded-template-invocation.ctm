@@ -1,0 +1,5 @@
+def tpl($t) 
+  $t isa topic.
+end
+
+[tpl()](roletype: roleplayer)

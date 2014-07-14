@@ -1,0 +1,12 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.1">
+<!--
+  The following topic maps are reified. This topic map is not
+  reified and should not be reified after processing the other 
+  topic maps.
+-->
+  <mergeMap href="mergemap-tm-reifier-element-topicref.sub"/>
+  <mergeMap href="mergemap-tm-reifier-element-slo.sub"/>
+  <mergeMap href="mergemap-tm-reifier-element-sid.sub"/>
+  <topic id="topic">
+  </topic>
+</topicMap>

@@ -1,0 +1,3 @@
+@prefix ex: <http://psi.example.org/>.
+
+ex:john ex:member-of ex:the-beatles .

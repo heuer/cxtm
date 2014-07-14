@@ -1,0 +1,6 @@
+#
+# See <http://www.w3.org/TR/xmlschema-2/#dateTime> 
+# "[...] if more than four digits, leading zeros are prohibited [...]"
+# 
+topic
+    occtype: 00002000-01-02.

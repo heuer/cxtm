@@ -1,0 +1,5 @@
+
+tmcl-schema
+  description: "A meta-schema for TMCL, describing the allowed structure
+                    of TMCL schemas.";
+  see-also: http://www.isotopicmaps.org/tmcl/tmcl.html .

@@ -1,0 +1,4 @@
+%prefix syn http://psi.topicmaps.org/iso13250/
+%mergemap <mergemap.sub> syn:ctm
+
+lars isa person.

@@ -1,0 +1,13 @@
+
+def tpl2($t, $name)
+    $t - $name.
+end
+
+def tpl()
+    tpl2(?foo, "name")
+    ?foo - "name2".
+end
+
+tpl()
+
+tpl()

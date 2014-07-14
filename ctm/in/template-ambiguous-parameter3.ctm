@@ -1,0 +1,6 @@
+
+def test($foo)
+  $foo bar: $foo.
+end
+
+test(<http://www.example.org/test>)

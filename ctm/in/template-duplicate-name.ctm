@@ -1,0 +1,12 @@
+
+def template()
+    topic.
+end
+
+def template($arg)
+  $arg - "The other topic".
+end
+
+template()
+
+template(another-topic)

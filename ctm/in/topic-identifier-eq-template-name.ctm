@@ -1,0 +1,7 @@
+topic1.
+
+def topic1()
+    topic2.
+end
+
+topic1()

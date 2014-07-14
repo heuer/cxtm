@@ -1,0 +1,5 @@
+
+oslo - "Oslo".
+norway - "Norway".
+
+is-capital-of(capital: oslo, region: norway)

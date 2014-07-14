@@ -1,0 +1,127 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>mergedouble.sub3#company</locator>
+</itemIdentifiers>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>mergedouble.sub3#employed-by</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Employed by</value>
+<type topicref="9"></type>
+</name>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>mergedouble.sub3#person</locator>
+</itemIdentifiers>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://psi.ontopia.net/fake/company</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>mergedouble.sub1#company</locator>
+<locator>mergedouble.sub2#company</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Company</value>
+<type topicref="9"></type>
+</name>
+<rolePlayed ref="association.2.role.1"></rolePlayed>
+</topic>
+<topic number="5">
+<subjectIdentifiers>
+<locator>http://psi.ontopia.net/fake/lmg</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#lmg</locator>
+<locator>mergedouble.sub3#lmg</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Lars Marius Garshol</value>
+<type topicref="9"></type>
+</name>
+<rolePlayed ref="association.1.role.1"></rolePlayed>
+<rolePlayed ref="association.3.role.1"></rolePlayed>
+</topic>
+<topic number="6">
+<subjectIdentifiers>
+<locator>http://psi.ontopia.net/fake/person</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#person</locator>
+</itemIdentifiers>
+<rolePlayed ref="association.3.role.2"></rolePlayed>
+</topic>
+<topic number="7">
+<subjectIdentifiers>
+<locator>http://psi.ontopia.net/ontopia/ontopia.xtm#ontopia</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>mergedouble.sub1#ontopia</locator>
+<locator>mergedouble.sub3#ontopia</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Ontopia</value>
+<type topicref="9"></type>
+</name>
+<rolePlayed ref="association.1.role.2"></rolePlayed>
+<rolePlayed ref="association.2.role.2"></rolePlayed>
+</topic>
+<topic number="8">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/instance</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="9">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="10">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/type</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="11">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/type-instance</locator>
+</subjectIdentifiers>
+</topic>
+<association number="1">
+<type topicref="2"></type>
+<role number="1">
+<player topicref="5"></player>
+<type topicref="3"></type>
+</role>
+<role number="2">
+<player topicref="7"></player>
+<type topicref="1"></type>
+</role>
+</association>
+<association number="2">
+<type topicref="11"></type>
+<role number="1">
+<player topicref="4"></player>
+<type topicref="10"></type>
+</role>
+<role number="2">
+<player topicref="7"></player>
+<type topicref="8"></type>
+</role>
+</association>
+<association number="3">
+<type topicref="11"></type>
+<role number="1">
+<player topicref="5"></player>
+<type topicref="8"></type>
+</role>
+<role number="2">
+<player topicref="6"></player>
+<type topicref="10"></type>
+</role>
+</association>
+</topicMap>

@@ -1,0 +1,18 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#description</locator>
+<locator>itc1.sub#description</locator>
+<locator>itc2.sub#description</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Description</value>
+<type topicref="2"></type>
+</name>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

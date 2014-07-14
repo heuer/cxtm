@@ -1,0 +1,7 @@
+﻿#
+# Tests if implementations did not copy and paste the 
+# error from the CTM draft 2010-03-29
+# <http://projects.topicmapslab.de/issues/2563>
+#
+topic
+occtype: 1976-10-09.

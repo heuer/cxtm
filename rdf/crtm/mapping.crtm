@@ -1,0 +1,38 @@
+%prefix foaf <http://xmlns.com/foaf/0.1/>
+%prefix ex <http://psi.example.org/>
+
+%include <foaf.crtm>
+
+ex:isa:   isa
+
+ex:isa-scoped:  isa@ex:theme, ex:theme2
+
+ex:ako:   ako
+
+ex:ako-scoped:  ako@ex:theme, ex:theme2
+
+ex:member-of: (ex:member, ex:group) 
+
+# Explicit association type
+ex:knows: foaf:knows(foaf:Person, foaf:Person) 
+
+ex:slo: subject-locator
+
+ex {
+  occ1, occ2, occ3: occurrence
+  name1, name2: name
+}
+
+ex:name3, ex:name4: name
+
+<http://psi.example.org/iri-test/> {
+  name: name
+}
+
+<http://psi.example.org/iri-test2#> {
+  name: name
+}
+
+%prefix rdfs <http://www.w3.org/2000/01/rdf-schema#>
+
+rdfs:comment: occ

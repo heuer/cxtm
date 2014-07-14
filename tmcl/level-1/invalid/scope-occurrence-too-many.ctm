@@ -1,0 +1,20 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+%prefix tmdm http://psi.topicmaps.org/iso13250/model/
+
+lmg isa person;
+  shoesize: 12 @ invented, might-be-right.
+
+shoesize isa tmcl:occurrence-type.
+person isa tmcl:topic-type.
+
+violated isa tmcl:topic-occurrence-constraint;
+  tmcl:card-min: 1;
+  tmcl:card-max: 1.
+tmcl:constrained-topic-type(tmcl:constraint: violated, tmcl:constrained: person)
+tmcl:constrained-statement(tmcl:constraint: violated, tmcl:constrained: shoesize)
+
+c2 isa tmcl:scope-constraint;
+  tmcl:card-max: 1.
+tmcl:constrained-statement(tmcl:constraint: c2, tmcl:constrained: shoesize)
+tmcl:allowed-scope(tmcl:allows: c2, tmcl:allowed: tmdm:subject)

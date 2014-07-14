@@ -1,0 +1,11 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/1.0/"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+<topic id="topic"/>
+<topic id="topic2"/>
+<topic id="topic3">
+    <subjectIdentity>
+        <topicRef xlink:href="#topic"/>
+        <topicRef xlink:href="#topic2"/>
+    </subjectIdentity>
+</topic>
+</topicMap>

@@ -1,0 +1,14 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/1.0/"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+<association>
+    <instanceOf><topicRef xlink:href="#assoctype"/></instanceOf>
+    <member>
+        <roleSpec><topicRef xlink:href="#roletype1"/></roleSpec>
+        <topicRef xlink:href="#topic1"/>
+    </member>
+    <member>
+        <roleSpec><topicRef xlink:href="#roletype2"/></roleSpec>
+        <topicRef xlink:href="#topic2"/>
+    </member>
+</association>
+</topicMap>

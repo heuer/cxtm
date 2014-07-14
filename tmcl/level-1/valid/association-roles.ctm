@@ -1,0 +1,21 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+foo(role: bar, role: baz)
+
+foo isa tmcl:association-type.
+role isa tmcl:role-type.
+bar isa quux.
+baz isa quux.
+quux isa tmcl:topic-type.
+
+c2 isa tmcl:association-role-constraint;
+  tmcl:card-min: 2;
+  tmcl:card-max: 2.
+tmcl:constrained-statement(tmcl:constraint: c2, tmcl:constrained: foo)
+tmcl:constrained-role(tmcl:constraint: c2, tmcl:constrained: role)
+
+c isa tmcl:topic-role-constraint.
+tmcl:constrained-topic-type(tmcl:constraint: c, tmcl:constrained: quux)
+tmcl:constrained-statement(tmcl:constraint: c, tmcl:constrained: foo)
+tmcl:constrained-role(tmcl:constraint: c, tmcl:constrained: role)

@@ -1,0 +1,28 @@
+<topicMap>
+<itemIdentifiers>
+<locator>mergextm.xtm#xtm-language</locator>
+</itemIdentifiers>
+<topic number="1">
+<itemIdentifiers>
+<locator>#topic1</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Topic number one</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>mergextm.xtm#country</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Country</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

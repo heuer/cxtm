@@ -1,0 +1,17 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#john</locator>
+</itemIdentifiers>
+<occurrence number="1">
+<value>http://en.wikipedia.org/wiki/John_Lennon</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<type topicref="2"></type>
+</occurrence>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#wikipedia</locator>
+</itemIdentifiers>
+</topic>
+</topicMap>

@@ -1,0 +1,7 @@
+
+# In a previous CTM draft 1. was a valid decimal.
+# This is not the case anymore, the "1." must be interpreted as 
+# integer "1" followed by the end of the topic block
+
+topic
+occtype: 1.

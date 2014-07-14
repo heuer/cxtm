@@ -1,0 +1,7 @@
+
+def tpl()
+    topic
+    - name: "Name" ~ [ - "reifier"].
+end
+
+tpl()

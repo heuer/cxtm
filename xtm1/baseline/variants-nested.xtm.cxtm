@@ -1,0 +1,41 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#country</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Country</value>
+<type topicref="4"></type>
+<variant number="1">
+<value>Land</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<scope>
+<scopingTopic topicref="2"></scopingTopic>
+</scope>
+</variant>
+<variant number="2">
+<value>Ländchen</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<scope>
+<scopingTopic topicref="2"></scopingTopic>
+<scopingTopic topicref="3"></scopingTopic>
+</scope>
+</variant>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#de</locator>
+</itemIdentifiers>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#nick</locator>
+</itemIdentifiers>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

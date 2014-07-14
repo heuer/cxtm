@@ -1,0 +1,5 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+foo isa bar . 
+bar isa tmcl:topic-type .

@@ -1,0 +1,30 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#height</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Height</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#lmg</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Lars Marius Garshol</value>
+<type topicref="3"></type>
+</name>
+<occurrence number="1">
+<value></value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="1"></type>
+</occurrence>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

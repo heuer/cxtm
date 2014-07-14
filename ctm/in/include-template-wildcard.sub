@@ -1,0 +1,4 @@
+
+def template()
+  ?foo - "Foo".
+end

@@ -1,0 +1,17 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>http://www.w3.org/2000/01/rdf-schema#comment</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>http://xmlns.com/foaf/0.1/geekcode</locator>
+</subjectIdentifiers>
+<occurrence number="1">
+<value>a textual geekcode for this person</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="1"></type>
+</occurrence>
+</topic>
+</topicMap>

@@ -1,0 +1,4 @@
+@prefix iri_test: <http://psi.example.org/iri-test2#>.
+
+<#john> iri_test:name "John".
+

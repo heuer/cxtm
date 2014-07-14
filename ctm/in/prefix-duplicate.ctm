@@ -1,0 +1,5 @@
+%prefix ex http://psi.example.org/
+
+%prefix ex http://psi.example.org/
+
+ex:fake.

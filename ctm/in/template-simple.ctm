@@ -1,0 +1,6 @@
+
+def template()
+    topic.
+end
+
+template()

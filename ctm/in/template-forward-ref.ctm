@@ -1,0 +1,9 @@
+def beatle($p)
+    is-member-of($p, beatles)   # Forward reference to is-member-of
+end
+
+def is-member-of($member, $group)  
+    member-of(member: $member, group: $group)
+end
+
+beatle(john)

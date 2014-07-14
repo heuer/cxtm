@@ -1,0 +1,3 @@
+%include <include-wildcard2.sub2>
+
+?foo - "Sub".

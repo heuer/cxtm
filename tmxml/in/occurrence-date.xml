@@ -1,0 +1,10 @@
+<topicmap xmlns:onto="http://psi.example.org/ontology/"
+          xmlns:tm="http://psi.ontopia.net/xml/tm-xml/"
+          xmlns:iso="http://psi.topicmaps.org/iso13250/model/">
+
+  <onto:person>
+    <tm:identifier>http://psi.example.org/person/someone</tm:identifier>
+    <born datatype="http://www.w3.org/2001/XMLSchema#date">1976-09-19</born>
+  </onto:person>
+
+</topicmap>

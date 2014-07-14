@@ -1,0 +1,14 @@
+#
+# Test against <https://code.google.com/p/tmql/issues/detail?id=43>
+# They seem to use an outdated Semagia MIO CTM version, though
+#
+%prefix tmcl http://psi.topicmaps.org/tmcl/  
+%prefix tmdm http://psi.topicmaps.org/iso13250/model  
+def overlaps($tt1, $tt2) 
+  ?c isa tmcl:overlap-declaration. 
+  tmcl:overlaps(tmcl:allows : ?c, 
+  tmcl:allowed : $tt1) 
+  tmcl:overlaps(tmcl:allows : ?c, 
+  tmcl:allowed : $tt2) 
+end  
+overlaps(<http://en.wikipedia.org/wiki/City>, <http://en.wikipedia.org/wiki/State_(administrative_division)>)

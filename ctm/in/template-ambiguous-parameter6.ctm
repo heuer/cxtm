@@ -1,0 +1,10 @@
+
+%prefix ex <http://www.example.org/>
+
+# Using a QName argument in different contexts
+
+def template($q)
+  topic $q; =$q; ^$q; occ: $q.
+end
+
+template(ex:something)

@@ -1,0 +1,6 @@
+=======================
+Status of the CTM tests
+=======================
+
+The tests use the CTM draft dtd. 2010-03-31.
+

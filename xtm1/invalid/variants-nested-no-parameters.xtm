@@ -1,0 +1,19 @@
+<topicMap 
+   xmlns="http://www.topicmaps.org/xtm/1.0/"
+   xmlns:xlink='http://www.w3.org/1999/xlink'> 
+
+  <topic id="country">
+    <baseName>
+      <baseNameString>Country</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="#de"/>
+        </parameters>
+        <variantName><resourceData>Land</resourceData></variantName>
+        <variant>
+          <variantName><resourceData>Ländchen</resourceData></variantName>
+        </variant>
+      </variant>
+    </baseName>
+  </topic>
+</topicMap>

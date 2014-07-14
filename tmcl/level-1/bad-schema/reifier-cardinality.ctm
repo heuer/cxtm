@@ -1,0 +1,12 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+%prefix tmdm http://psi.topicmaps.org/iso13250/model/
+
+person isa tmcl:topic-type.
+reifier isa tmcl:topic-type.
+shoesize isa tmcl:occurrence-type.
+
+c isa tmcl:reifier-constraint;
+  tmcl:card-min: 2.
+tmcl:constrained-statement(tmcl:constraint: c, tmcl:constrained: shoesize)
+tmcl:allowed-reifier(tmcl:allows: c, tmcl:allowed: reifier)

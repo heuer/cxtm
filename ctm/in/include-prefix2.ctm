@@ -1,0 +1,4 @@
+%prefix ex http://psi.example.org/
+%include <include-prefix2.sub>
+
+ex:foo.

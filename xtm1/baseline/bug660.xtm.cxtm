@@ -1,0 +1,14 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>#B</locator>
+</subjectIdentifiers>
+<subjectLocators>
+<locator>http://www.example.com/resource</locator>
+</subjectLocators>
+<itemIdentifiers>
+<locator>#B</locator>
+<locator>#C</locator>
+</itemIdentifiers>
+</topic>
+</topicMap>

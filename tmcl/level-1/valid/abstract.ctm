@@ -1,0 +1,14 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+abstract-type isa tmcl:topic-type.
+topic-type ako abstract-type.
+
+# <FIXME>
+topic-type isa tmcl:topic-type. # need to fix ako support in tolog
+# </FIXME>
+
+c isa tmcl:abstract-constraint.
+tmcl:constrained-topic-type(tmcl:constraint : c, tmcl:constrained : abstract-type)
+
+instance isa topic-type.

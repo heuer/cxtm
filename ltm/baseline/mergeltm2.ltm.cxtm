@@ -1,0 +1,40 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#topic1</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Topic number one</value>
+<type topicref="3"></type>
+<scope>
+<scopingTopic topicref="4"></scopingTopic>
+</scope>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>mergeltm.sub#topic2</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Topic number two</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://www.topicmaps.org/xtm/1.0/country.xtm#en</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#english</locator>
+</itemIdentifiers>
+<name number="1">
+<value>English</value>
+<type topicref="3"></type>
+</name>
+</topic>
+</topicMap>

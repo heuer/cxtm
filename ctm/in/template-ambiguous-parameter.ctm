@@ -1,0 +1,6 @@
+
+def test($uri)
+  foo bar: $uri .
+end
+
+test(<http://www.ontopia.net/index.html>)

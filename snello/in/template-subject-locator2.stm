@@ -1,0 +1,4 @@
+
+template $iri :- = $iri. .
+
+template(=<http://www.example.org/>)

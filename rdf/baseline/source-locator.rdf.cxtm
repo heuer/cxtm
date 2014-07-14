@@ -1,0 +1,31 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>bogus:grove</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>mailto:grove@ontopia.net</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Geir Ove</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>bogus:larsga</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>mailto:larsga@garshol.priv.no</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Lars Marius</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://xmlns.com/foaf/0.1/name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

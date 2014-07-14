@@ -1,0 +1,31 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#occtype</locator>
+</itemIdentifiers>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#theme1</locator>
+</itemIdentifiers>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#theme2</locator>
+</itemIdentifiers>
+</topic>
+<topic number="4">
+<itemIdentifiers>
+<locator>#topic</locator>
+</itemIdentifiers>
+<occurrence number="1">
+<value>Occurrence</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="1"></type>
+<scope>
+<scopingTopic topicref="2"></scopingTopic>
+<scopingTopic topicref="3"></scopingTopic>
+</scope>
+</occurrence>
+</topic>
+</topicMap>

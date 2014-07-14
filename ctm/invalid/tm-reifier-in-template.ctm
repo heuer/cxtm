@@ -1,0 +1,5 @@
+def tpl()
+    ~reifier
+end
+
+tpl() # Ain't I am nice to parsers which do not validate templates during parsing? ;)

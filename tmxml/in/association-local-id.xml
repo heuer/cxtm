@@ -1,0 +1,14 @@
+<topicmap xmlns:onto="http://psi.example.org/ontology/"
+          xmlns:tm="http://psi.ontopia.net/xml/tm-xml/"
+          xmlns:iso="http://psi.topicmaps.org/iso13250/model/">
+
+  <onto:person id="john">
+    <iso:topic-name>
+      <tm:value>John</tm:value>
+    </iso:topic-name>
+    <member-of role="onto:member" 
+                    otherrole="onto:group"
+                    topicref="beatles"/>
+  </onto:person>
+
+</topicmap>

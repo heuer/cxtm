@@ -1,0 +1,7 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rtm: <http://psi.ontopia.net/rdf2tm/#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<#john> foaf:name "http://this.seems.to/be/allowed/"^^xsd:anyURI.
+
+foaf:name rtm:maps-to rtm:basename .

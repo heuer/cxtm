@@ -1,0 +1,10 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+shoesize isa tmcl:occurrence-type.
+person isa tmcl:topic-type.
+
+violated isa tmcl:topic-occurrence-constraint;
+  tmcl:card-min: *.
+tmcl:constrained-topic-type(tmcl:constraint: violated, tmcl:constrained: person)
+tmcl:constrained-statement(tmcl:constraint: violated, tmcl:constrained: shoesize)

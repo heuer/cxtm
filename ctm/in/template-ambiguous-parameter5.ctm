@@ -1,0 +1,8 @@
+
+# Using an IRI argument in different contexts
+
+def template($iri)
+  topic $iri; =$iri; ^$iri.
+end
+
+template(<http://www.example.org/something/>)

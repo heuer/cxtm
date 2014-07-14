@@ -1,0 +1,7 @@
+
+def tpl()
+    topic
+    [-[-"name"]: "occ-type"]: "Occurrence".
+end
+
+tpl()

@@ -1,0 +1,2 @@
+# Checks if the parser allows the semicolon in front of the ]
+[-"assoc-type";](roletype: roleplayer)

@@ -1,0 +1,5 @@
+def tpl()
+    [-"This is not allowed"]
+end
+
+tpl()

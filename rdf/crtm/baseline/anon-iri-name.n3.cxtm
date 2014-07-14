@@ -1,0 +1,16 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>#john</locator>
+</subjectIdentifiers>
+<name number="1">
+<value>John</value>
+<type topicref="2"></type>
+</name>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>http://psi.example.org/iri-test/name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

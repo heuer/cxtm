@@ -1,0 +1,31 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#$__1</locator>
+</itemIdentifiers>
+<name number="1">
+<value>reifier</value>
+<type topicref="4"></type>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#occtype</locator>
+</itemIdentifiers>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#topic</locator>
+</itemIdentifiers>
+<occurrence number="1" reifier="1">
+<value>Occurrence</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="2"></type>
+</occurrence>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

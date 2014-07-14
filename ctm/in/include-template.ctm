@@ -1,0 +1,3 @@
+%include <include-template.sub>
+
+template(topic)

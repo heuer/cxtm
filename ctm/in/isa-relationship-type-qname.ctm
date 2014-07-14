@@ -1,0 +1,3 @@
+%prefix a http://psi.example.org/
+
+ctm isa a:format.

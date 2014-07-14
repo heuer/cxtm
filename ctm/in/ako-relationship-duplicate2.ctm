@@ -1,0 +1,5 @@
+%prefix tmdm http://psi.topicmaps.org/iso13250/model/
+
+tm-syntax ako syntax .
+
+tmdm:supertype-subtype(tmdm:subtype: tm-syntax, tmdm:supertype: syntax)

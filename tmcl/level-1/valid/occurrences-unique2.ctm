@@ -1,0 +1,29 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+%prefix tmdm http://psi.topicmaps.org/iso13250/model/
+
+lmg isa person;
+  email: "larsga@garshol.priv.no".
+
+larsga isa person;
+  foo: "larsga@garshol.priv.no".
+
+email isa tmcl:occurrence-type.
+foo isa tmcl:occurrence-type.
+person isa tmcl:topic-type.
+
+c isa tmcl:topic-occurrence-constraint;
+  tmcl:card-max: 1.
+tmcl:constrained-topic-type(tmcl:constraint: c, tmcl:constrained: person)
+tmcl:constrained-statement(tmcl:constraint: c, tmcl:constrained: email)
+
+c3 isa tmcl:topic-occurrence-constraint;
+  tmcl:card-max: 1.
+tmcl:constrained-topic-type(tmcl:constraint: c3, tmcl:constrained: person)
+tmcl:constrained-statement(tmcl:constraint: c3, tmcl:constrained: foo)
+
+c4 isa tmcl:unique-value-constraint.
+tmcl:constrained-statement(tmcl:constraint : c4, tmcl:constrained : email)
+
+c5 isa tmcl:unique-value-constraint.
+tmcl:constrained-statement(tmcl:constraint : c5, tmcl:constrained : email)

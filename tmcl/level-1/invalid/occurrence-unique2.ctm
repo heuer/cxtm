@@ -1,0 +1,21 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+%prefix tmdm http://psi.topicmaps.org/iso13250/model/
+
+lmg isa person;
+  email: "larsga@garshol.priv.no" @scope1;
+  email: "larsga@garshol.priv.no" @scope2.
+
+email isa tmcl:occurrence-type.
+person isa tmcl:topic-type.
+
+c isa tmcl:topic-occurrence-constraint.
+tmcl:constrained-topic-type(tmcl:constraint: c, tmcl:constrained: person)
+tmcl:constrained-statement(tmcl:constraint: c, tmcl:constrained: email)
+
+violated isa tmcl:unique-value-constraint.
+tmcl:constrained-statement(tmcl:constraint : violated, tmcl:constrained : email)
+
+c2 isa tmcl:scope-constraint.
+tmcl:constrained-statement(tmcl:constraint: c2, tmcl:constrained: email)
+tmcl:allowed-scope(tmcl:allows: c2, tmcl:allowed: tmdm:subject)

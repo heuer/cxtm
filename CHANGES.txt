@@ -1,0 +1,43 @@
+=======
+Changes
+=======
+
+0.5 -- 2011-mm-dd
+-----------------
+
+
+
+0.4 -- 2011-01-17
+-----------------
+* Added RDFa + HTML tests
+* Added RDFa + XHTML tests
+* Added more CTM tests
+* Added more JTM tests
+* Added more LTM tests
+* Added JTM 1.1 tests
+* Added more XTM 2.1 tests
+* Added more XTM 1.0 tests
+
+
+0.3 -- 2010-08-11
+-----------------
+* Aligned CTM syntax to the current CTM spec
+* Added more CTM tests
+* Added tests for RDF
+* Added tests for JSON Topic Maps (JTM)
+* Fixed some TM/XML tests
+* Fixed some XTM 2.0 tests
+* Added XTM 2.1 tests
+* Added TMCL tests
+
+
+0.2 -- 2008-09-02
+-----------------
+* Added more CTM tests
+* Added XTM 1.0 tests
+* Fixed a few errors in the CXTM output (mainly LTM)
+
+
+0.1 -- 2008-05-22
+-----------------
+* Initial release

@@ -1,0 +1,19 @@
+
+%prefix xsd http://www.w3.org/2001/XMLSchema#
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+lmg isa person;
+  shoesize: "Norway".
+
+shoesize isa tmcl:occurrence-type.
+person isa tmcl:topic-type.
+
+c isa tmcl:topic-occurrence-constraint;
+  tmcl:card-min: 1;
+  tmcl:card-max: 1.
+tmcl:constrained-topic-type(tmcl:constraint: c, tmcl:constrained: person)
+tmcl:constrained-statement(tmcl:constraint: c, tmcl:constrained: shoesize)
+
+violated isa tmcl:occurrence-datatype-constraint;
+  tmcl:datatype: xsd:integer.
+tmcl:constrained-statement(tmcl:constraint: violated, tmcl:constrained: shoesize)

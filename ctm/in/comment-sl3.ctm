@@ -1,0 +1,3 @@
+
+# This test verifies that parsers do not require single-line comments
+# to end in a line-break.

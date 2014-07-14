@@ -1,0 +1,13 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+foo(violator: bar)
+
+foo isa tmcl:association-type.
+quux isa tmcl:topic-type.
+
+bar isa quux.
+c isa tmcl:topic-role-constraint.
+tmcl:constrained-topic-type(tmcl:constraint: c, tmcl:constrained: quux)
+tmcl:constrained-statement(tmcl:constraint: c, tmcl:constrained: foo)
+tmcl:constrained-role(tmcl:constraint: c, tmcl:constrained: violator)

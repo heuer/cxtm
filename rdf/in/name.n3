@@ -1,0 +1,6 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rtm: <http://psi.ontopia.net/rdf2tm/#>.
+
+<#john> foaf:name "John".
+
+foaf:name rtm:maps-to rtm:basename .

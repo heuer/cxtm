@@ -1,0 +1,24 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>http://psi.ontopia.net/people/lmg-desc</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#lmg1</locator>
+<locator>#lmg2</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Lars Marius Garshol</value>
+<type topicref="2"></type>
+</name>
+<name number="2">
+<value>larsga@ontopia.net</value>
+<type topicref="2"></type>
+</name>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

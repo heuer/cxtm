@@ -1,0 +1,29 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#$__1.foo</locator>
+</itemIdentifiers>
+<name number="1">
+<value>name from tpl2</value>
+<type topicref="3"></type>
+</name>
+<name number="2">
+<value>tpl1</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#$__2.foo</locator>
+</itemIdentifiers>
+<name number="1">
+<value>tpl2</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

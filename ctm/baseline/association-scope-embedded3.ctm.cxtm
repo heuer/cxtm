@@ -1,0 +1,112 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#$__1</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Theme-1</value>
+<type topicref="10"></type>
+<scope>
+<scopingTopic topicref="2"></scopingTopic>
+<scopingTopic topicref="5"></scopingTopic>
+</scope>
+</name>
+<name number="2">
+<value>theme-1</value>
+<type topicref="10"></type>
+<scope>
+<scopingTopic topicref="7"></scopingTopic>
+</scope>
+</name>
+<occurrence number="1">
+<value>I am embedded</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="6"></type>
+</occurrence>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#$__2</locator>
+</itemIdentifiers>
+<name number="1">
+<value>This sucks</value>
+<type topicref="10"></type>
+</name>
+<occurrence number="1">
+<value>I am embedded</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="6"></type>
+</occurrence>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#$__3</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Theme-2</value>
+<type topicref="10"></type>
+<scope>
+<scopingTopic topicref="5"></scopingTopic>
+</scope>
+</name>
+<name number="2">
+<value>theme-2</value>
+<type topicref="10"></type>
+<scope>
+<scopingTopic topicref="7"></scopingTopic>
+</scope>
+</name>
+<occurrence number="1">
+<value>I am embedded</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="6"></type>
+</occurrence>
+</topic>
+<topic number="4">
+<itemIdentifiers>
+<locator>#assoctype</locator>
+</itemIdentifiers>
+</topic>
+<topic number="5">
+<itemIdentifiers>
+<locator>#de</locator>
+</itemIdentifiers>
+</topic>
+<topic number="6">
+<itemIdentifiers>
+<locator>#description</locator>
+</itemIdentifiers>
+</topic>
+<topic number="7">
+<itemIdentifiers>
+<locator>#en</locator>
+</itemIdentifiers>
+</topic>
+<topic number="8">
+<itemIdentifiers>
+<locator>#roletype</locator>
+</itemIdentifiers>
+</topic>
+<topic number="9">
+<itemIdentifiers>
+<locator>#topic</locator>
+</itemIdentifiers>
+<rolePlayed ref="association.1.role.1"></rolePlayed>
+</topic>
+<topic number="10">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<association number="1">
+<type topicref="4"></type>
+<role number="1">
+<player topicref="9"></player>
+<type topicref="8"></type>
+</role>
+<scope>
+<scopingTopic topicref="1"></scopingTopic>
+<scopingTopic topicref="3"></scopingTopic>
+</scope>
+</association>
+</topicMap>

@@ -1,0 +1,11 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+%prefix tmdm http://psi.topicmaps.org/iso13250/model/
+
+reifier isa tmcl:topic-type.
+shoesize isa tmcl:occurrence-type.
+
+c2 isa tmcl:topic-reifies-constraint;
+  tmcl:card-min: 2.
+tmcl:constrained-topic-type(tmcl:constraint: c2, tmcl:constrained: reifier)
+tmcl:constrained-statement(tmcl:constraint: c2, tmcl:constrained: shoesize)

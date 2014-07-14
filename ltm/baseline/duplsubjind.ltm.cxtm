@@ -1,0 +1,24 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>http://www.ontopia.net/</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#ontopia</locator>
+<locator>#ontopia2</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Ontopia</value>
+<type topicref="1"></type>
+</name>
+<name number="2">
+<value>Ontopia AS</value>
+<type topicref="1"></type>
+</name>
+</topic>
+</topicMap>

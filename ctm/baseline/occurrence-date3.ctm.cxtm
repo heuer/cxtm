@@ -1,0 +1,47 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#o1</locator>
+</itemIdentifiers>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#o2</locator>
+</itemIdentifiers>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#o3</locator>
+</itemIdentifiers>
+</topic>
+<topic number="4">
+<itemIdentifiers>
+<locator>#o4</locator>
+</itemIdentifiers>
+</topic>
+<topic number="5">
+<itemIdentifiers>
+<locator>#topic</locator>
+</itemIdentifiers>
+<occurrence number="1">
+<value>0001-12-02</value>
+<datatype>http://www.w3.org/2001/XMLSchema#date</datatype>
+<type topicref="1"></type>
+</occurrence>
+<occurrence number="2">
+<value>0011-12-02</value>
+<datatype>http://www.w3.org/2001/XMLSchema#date</datatype>
+<type topicref="2"></type>
+</occurrence>
+<occurrence number="3">
+<value>0111-12-02</value>
+<datatype>http://www.w3.org/2001/XMLSchema#date</datatype>
+<type topicref="3"></type>
+</occurrence>
+<occurrence number="4">
+<value>1111-12-02</value>
+<datatype>http://www.w3.org/2001/XMLSchema#date</datatype>
+<type topicref="4"></type>
+</occurrence>
+</topic>
+</topicMap>

@@ -1,0 +1,13 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/1.0/"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+<topic id="reifier">
+    <subjectIdentity><subjectIndicatorRef xlink:href="#assoc"/></subjectIdentity>
+</topic>
+<association id="assoc">
+    <instanceOf><topicRef xlink:href="#assoctype"/></instanceOf>
+    <member>
+        <roleSpec><topicRef xlink:href="#roletype"/></roleSpec>
+        <topicRef xlink:href="#roleplayer"/>
+    </member>
+</association>
+</topicMap>

@@ -1,0 +1,11 @@
+<topicmap xmlns:tech="http://psi.example.org/technology/"
+          xmlns:tm="http://psi.ontopia.net/xml/tm-xml/">
+
+  <!-- a test for the new, less restrictive schema proposed by Lars Heuer -->
+  
+  <tech:syntax id="tmxml">
+    <tm:locator>http://psi.example.org/technology/tmxml</tm:locator>
+    <tm:identifier>http://psi.example.org/technology/tmxml</tm:identifier>
+  </tech:syntax>
+
+</topicmap>

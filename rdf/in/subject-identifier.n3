@@ -1,0 +1,6 @@
+@prefix rtm: <http://psi.ontopia.net/rdf2tm/#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+
+<#john> foaf:mbox <mailto:john@example.org>.
+
+foaf:mbox rtm:maps-to rtm:subject-identifier.

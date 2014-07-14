@@ -1,0 +1,24 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>#land</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#country</locator>
+<locator>#land</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Country</value>
+<type topicref="2"></type>
+</name>
+<name number="2">
+<value>Land</value>
+<type topicref="2"></type>
+</name>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

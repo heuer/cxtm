@@ -1,0 +1,25 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>http://some-address/#myassoc</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>http://some-address/#myplayer</locator>
+</subjectIdentifiers>
+<rolePlayed ref="association.1.role.1"></rolePlayed>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://some-address/#myrole</locator>
+</subjectIdentifiers>
+</topic>
+<association number="1">
+<type topicref="1"></type>
+<role number="1">
+<player topicref="2"></player>
+<type topicref="3"></type>
+</role>
+</association>
+</topicMap>

@@ -1,0 +1,8 @@
+
+has-name $topic, $name :-
+    $topic
+    - $name.
+.
+
+has-name $name=>"Name",
+        $topic=>topic

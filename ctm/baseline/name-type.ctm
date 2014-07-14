@@ -1,0 +1,16 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#nametype</locator>
+</itemIdentifiers>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#topic</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Name</value>
+<type topicref="1"></type>
+</name>
+</topic>
+</topicMap>

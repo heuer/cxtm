@@ -1,0 +1,4 @@
+
+def template($topic)
+    $topic isa test .
+end

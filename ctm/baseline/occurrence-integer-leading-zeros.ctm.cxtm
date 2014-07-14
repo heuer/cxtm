@@ -1,0 +1,77 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#o1</locator>
+</itemIdentifiers>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#o2</locator>
+</itemIdentifiers>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#o3</locator>
+</itemIdentifiers>
+</topic>
+<topic number="4">
+<itemIdentifiers>
+<locator>#o4</locator>
+</itemIdentifiers>
+</topic>
+<topic number="5">
+<itemIdentifiers>
+<locator>#o5</locator>
+</itemIdentifiers>
+</topic>
+<topic number="6">
+<itemIdentifiers>
+<locator>#o6</locator>
+</itemIdentifiers>
+</topic>
+<topic number="7">
+<itemIdentifiers>
+<locator>#o7</locator>
+</itemIdentifiers>
+</topic>
+<topic number="8">
+<itemIdentifiers>
+<locator>#topic</locator>
+</itemIdentifiers>
+<occurrence number="1">
+<value>-1</value>
+<datatype>http://www.w3.org/2001/XMLSchema#integer</datatype>
+<type topicref="3"></type>
+</occurrence>
+<occurrence number="2">
+<value>0</value>
+<datatype>http://www.w3.org/2001/XMLSchema#integer</datatype>
+<type topicref="5"></type>
+</occurrence>
+<occurrence number="3">
+<value>0</value>
+<datatype>http://www.w3.org/2001/XMLSchema#integer</datatype>
+<type topicref="6"></type>
+</occurrence>
+<occurrence number="4">
+<value>0</value>
+<datatype>http://www.w3.org/2001/XMLSchema#integer</datatype>
+<type topicref="7"></type>
+</occurrence>
+<occurrence number="5">
+<value>1</value>
+<datatype>http://www.w3.org/2001/XMLSchema#integer</datatype>
+<type topicref="1"></type>
+</occurrence>
+<occurrence number="6">
+<value>1</value>
+<datatype>http://www.w3.org/2001/XMLSchema#integer</datatype>
+<type topicref="2"></type>
+</occurrence>
+<occurrence number="7">
+<value>100</value>
+<datatype>http://www.w3.org/2001/XMLSchema#integer</datatype>
+<type topicref="4"></type>
+</occurrence>
+</topic>
+</topicMap>

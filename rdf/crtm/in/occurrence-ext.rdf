@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:rtm="http://psi.ontopia.net/rdf2tm/#" >
+
+<foaf:Person rdf:about="bogus:larsga">
+  <foaf:mbox rdf:resource="mailto:larsga@garshol.priv.no"/>
+</foaf:Person>
+
+<foaf:Person rdf:about="bogus:grove">
+  <foaf:nick>grove</foaf:nick>
+</foaf:Person>
+
+</rdf:RDF>

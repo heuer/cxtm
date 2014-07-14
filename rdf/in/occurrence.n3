@@ -1,0 +1,5 @@
+@prefix rtm: <http://psi.ontopia.net/rdf2tm/#>.
+
+<#john> <#website> <http://www.example.org/>.
+
+<#website> rtm:maps-to rtm:occurrence .

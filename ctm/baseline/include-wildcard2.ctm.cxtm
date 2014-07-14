@@ -1,0 +1,34 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#$__1.foo</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Sub Sub</value>
+<type topicref="4"></type>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#$__2.foo</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Sub</value>
+<type topicref="4"></type>
+</name>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#$__3.foo</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Master</value>
+<type topicref="4"></type>
+</name>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

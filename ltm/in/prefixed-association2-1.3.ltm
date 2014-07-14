@@ -1,0 +1,3 @@
+#PREFIX myprefix @"http://some-address/#"
+#PREFIX myprefix2 @"http://some-address2/#"
+myprefix2:myassoc(foo : myprefix:child, myprefix:bar : parent)

@@ -1,0 +1,20 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.0">
+  <topic id="topic">
+    <itemIdentity href="http://example.org/#topic"/>
+    <occurrence>
+      <type>
+        <topicRef href="#occtype"/>
+      </type>
+      <resourceData>Some data</resourceData>
+    </occurrence>
+  </topic>
+  <topic id="topic2">
+    <itemIdentity href="http://example.org/#topic"/>
+    <occurrence>
+      <type>
+        <topicRef href="#occtype"/>
+      </type>
+      <resourceData>Some more data</resourceData>
+    </occurrence>    
+  </topic>
+</topicMap>

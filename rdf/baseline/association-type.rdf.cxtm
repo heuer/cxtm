@@ -1,0 +1,48 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>bogus:association-type</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>bogus:grove</locator>
+</subjectIdentifiers>
+<name number="1">
+<value>Geir Ove</value>
+<type topicref="5"></type>
+</name>
+<rolePlayed ref="association.1.role.1"></rolePlayed>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>bogus:larsga</locator>
+</subjectIdentifiers>
+<name number="1">
+<value>Lars Marius Garshol</value>
+<type topicref="5"></type>
+</name>
+<rolePlayed ref="association.1.role.2"></rolePlayed>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://xmlns.com/foaf/0.1/Person</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="5">
+<subjectIdentifiers>
+<locator>http://xmlns.com/foaf/0.1/name</locator>
+</subjectIdentifiers>
+</topic>
+<association number="1">
+<type topicref="1"></type>
+<role number="1">
+<player topicref="2"></player>
+<type topicref="4"></type>
+</role>
+<role number="2">
+<player topicref="3"></player>
+<type topicref="4"></type>
+</role>
+</association>
+</topicMap>

@@ -1,0 +1,6 @@
+
+def test($type)
+  foo $type: http://example.org/index.html .
+end
+
+test(<http://www.ontopia.net/index.html>)

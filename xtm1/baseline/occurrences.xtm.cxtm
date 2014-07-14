@@ -1,0 +1,62 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#homepage</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Home page</value>
+<type topicref="4"></type>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#norway</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Norway</value>
+<type topicref="4"></type>
+</name>
+<occurrence number="1">
+<value>Norway is a nice country.</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="5"></type>
+</occurrence>
+<occurrence number="2">
+<value>http://www.norge.no/resource</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<type topicref="1"></type>
+</occurrence>
+<occurrence number="3">
+<value>http://www.norway.com/resource</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<type topicref="5"></type>
+</occurrence>
+<occurrence number="4">
+<value>http://www.visitnorway.com/resource</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<type topicref="5"></type>
+<scope>
+<scopingTopic topicref="3"></scopingTopic>
+</scope>
+</occurrence>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#tourism</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Tourism</value>
+<type topicref="4"></type>
+</name>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="5">
+<subjectIdentifiers>
+<locator>http://www.topicmaps.org/xtm/1.0/core.xtm#occurrence</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

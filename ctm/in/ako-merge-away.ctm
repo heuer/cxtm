@@ -1,0 +1,13 @@
+
+person ako animal .
+
+# in some parsers, this will merge the now created supertype-subtype assoc type
+# with the haha topic, thus blowing the hardwired reference in the code to that
+# association type.
+haha http://psi.topicmaps.org/iso13250/model/supertype-subtype .
+hehe http://psi.topicmaps.org/iso13250/model/supertype .
+hoho http://psi.topicmaps.org/iso13250/model/subtype .
+
+# this may now fail because the association type reference points to a topic
+# that has been merged away.
+dog ako animal .

@@ -1,0 +1,74 @@
+<topicMap>
+<itemIdentifiers>
+<locator>#xtm-whitespace</locator>
+</itemIdentifiers>
+<topic number="1">
+<itemIdentifiers>
+<locator>#theme</locator>
+</itemIdentifiers>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#theme2</locator>
+</itemIdentifiers>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#topic</locator>
+</itemIdentifiers>
+<name number="1">
+<value> 	
+  	with 	 tabs 	 
+				</value>
+<type topicref="4"></type>
+<variant number="1">
+<value> 	
+  	with 	 tabs 	 
+				</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<scope>
+<scopingTopic topicref="1"></scopingTopic>
+</scope>
+</variant>
+<variant number="2">
+<value>   
+  	with 	 spaces 	 
+	   </value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<scope>
+<scopingTopic topicref="2"></scopingTopic>
+</scope>
+</variant>
+</name>
+<name number="2">
+<value>   
+  	with 	 spaces 	 
+	   </value>
+<type topicref="4"></type>
+</name>
+<occurrence number="1">
+<value> 	
+  	with 	 tabs 	 
+				</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="5"></type>
+</occurrence>
+<occurrence number="2">
+<value>   
+  	with 	 spaces 	 
+	   </value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="5"></type>
+</occurrence>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="5">
+<subjectIdentifiers>
+<locator>http://www.topicmaps.org/xtm/1.0/core.xtm#occurrence</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

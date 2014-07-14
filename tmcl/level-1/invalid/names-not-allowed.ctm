@@ -1,0 +1,8 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+lmg isa person;
+  - lastname: "Garshol".
+
+lastname isa tmcl:name-type.
+person isa tmcl:topic-type.

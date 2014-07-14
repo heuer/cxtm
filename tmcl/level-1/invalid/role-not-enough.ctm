@@ -1,0 +1,17 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+lmg isa person.
+person isa tmcl:topic-type.
+
+employed-by(employee: lmg)
+
+employed-by isa tmcl:association-type.
+employee isa tmcl:role-type.
+
+violated isa tmcl:topic-role-constraint;
+  tmcl:card-min: 2;
+  tmcl:card-max: 2.
+tmcl:constrained-topic-type(tmcl:constraint: violated, tmcl:constrained: person)
+tmcl:constrained-statement(tmcl:constraint: violated, tmcl:constrained: employed-by)
+tmcl:constrained-role(tmcl:constraint: violated, tmcl:constrained: employee)

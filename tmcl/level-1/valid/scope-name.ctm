@@ -1,0 +1,20 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+%prefix tmdm http://psi.topicmaps.org/iso13250/model/
+
+foo isa bar; - nametype: "Foo" @ en.
+
+bar isa tmcl:topic-type.
+nametype isa tmcl:name-type.
+
+c isa tmcl:topic-name-constraint;
+  tmcl:card-min: 1;
+  tmcl:card-max: 1.
+tmcl:constrained-topic-type(tmcl:constraint: c, tmcl:constrained: bar)
+tmcl:constrained-statement(tmcl:constraint: c, tmcl:constrained: nametype)
+
+c2 isa tmcl:scope-constraint;
+  tmcl:card-min: 1;
+  tmcl:card-max: 1.
+tmcl:constrained-statement(tmcl:constraint: c2, tmcl:constrained: nametype)
+tmcl:constrained-scope(tmcl:constraint: c2, tmcl:constrained: tmdm:subject)

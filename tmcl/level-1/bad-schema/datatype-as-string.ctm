@@ -1,0 +1,5 @@
+
+%include http://www.isotopicmaps.org/tmcl/templates.ctm
+
+age isa tmcl:occurrence-type;
+  has-datatype("xsd:int").

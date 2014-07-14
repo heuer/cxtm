@@ -1,0 +1,8 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rtm: <http://psi.ontopia.net/rdf2tm/#>.
+
+<#beatles> foaf:nick "Fab Four".
+
+foaf:nick rtm:maps-to rtm:basename .
+foaf:nick rtm:in-scope <#nick> .
+foaf:nick rtm:in-scope <#en> .

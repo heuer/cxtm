@@ -1,0 +1,6 @@
+%mergemap <mergemap-template.sub> http://psi.topicmaps.org/iso13250/ctm
+
+def template()
+  lars isa person.
+end
+template()

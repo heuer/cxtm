@@ -1,0 +1,16 @@
+%prefix foaf <http://xmlns.com/foaf/0.1/>
+%prefix tmdm <http://psi.topicmaps.org/iso13250/model/>
+
+
+foaf {
+  name: - tmdm:topic-name  # Well, we could leave "foaf:name" as type, but 
+                           # using the default name seems to be more Topic Mappish
+
+  # Using scope
+  nick: - tmdm:topic-name@foaf:nick
+
+  mbox: occurrence
+
+  knows: association(foaf:Person, foaf:Person)
+}
+

@@ -1,0 +1,7 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.1">
+  <topic id="xtm">
+    <instanceOf>
+      <subjectLocatorRef href="#format"/>
+    </instanceOf>
+  </topic>
+</topicMap>

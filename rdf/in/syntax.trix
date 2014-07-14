@@ -1,0 +1,85 @@
+<TriX xmlns="http://www.w3.org/2004/03/trix/trix-1/">
+
+  <!--
+    # Just testing that we can actually read TriX
+  -->
+
+  <graph>
+    <uri>http://example.org/graph</uri>
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#thing</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.techquila.com/psi/thesaurus/#term</uri>
+    </triple>
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#thing</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <plainLiteral>Thing</plainLiteral>
+    </triple>
+
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#good-thing</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.techquila.com/psi/thesaurus/#term</uri>
+    </triple>
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#good-thing</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <plainLiteral>Good thing</plainLiteral>
+    </triple>
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#good-thing</uri>
+      <uri>http://piss.ontopia.net/ontosaurus/#parent</uri>
+      <uri>http://piss.ontopia.net/ontosaurus/#thing</uri>
+    </triple>
+
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#bad-thing</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.techquila.com/psi/thesaurus/#term</uri>
+    </triple>
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#bad-thing</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <plainLiteral>Bad thing</plainLiteral>
+    </triple>
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#bad-thing</uri>
+      <uri>http://piss.ontopia.net/ontosaurus/#parent</uri>
+      <uri>http://piss.ontopia.net/ontosaurus/#thing</uri>
+    </triple>
+    
+
+    <!-- Mapping -->
+    <triple>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://psi.ontopia.net/rdf2tm/#maps-to</uri>
+      <uri>http://psi.ontopia.net/rdf2tm/#instance-of</uri>
+    </triple>
+    <triple>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <uri>http://psi.ontopia.net/rdf2tm/#maps-to</uri>
+      <uri>http://psi.ontopia.net/rdf2tm/#basename</uri>
+    </triple>
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#parent</uri>
+      <uri>http://psi.ontopia.net/rdf2tm/#maps-to</uri>
+      <uri>http://psi.ontopia.net/rdf2tm/#association</uri>
+    </triple>
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#parent</uri>
+      <uri>http://psi.ontopia.net/rdf2tm/#type</uri>
+      <uri>http://www.techquila.com/psi/thesaurus/#broader-narrower</uri>
+    </triple>
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#parent</uri>
+      <uri>http://psi.ontopia.net/rdf2tm/#subject-role</uri>
+      <uri>http://www.techquila.com/psi/thesaurus/#narrower</uri>
+    </triple>
+    <triple>
+      <uri>http://piss.ontopia.net/ontosaurus/#parent</uri>
+      <uri>http://psi.ontopia.net/rdf2tm/#object-role</uri>
+      <uri>http://www.techquila.com/psi/thesaurus/#broader</uri>
+    </triple>
+  </graph>
+</TriX>

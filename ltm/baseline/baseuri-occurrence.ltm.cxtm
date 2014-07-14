@@ -1,0 +1,26 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#description</locator>
+</itemIdentifiers>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#ontopia</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Ontopia</value>
+<type topicref="3"></type>
+</name>
+<occurrence number="1">
+<value>http://psi.ontopia.net/ontopia/ontopia.xtm#ontopia</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<type topicref="1"></type>
+</occurrence>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

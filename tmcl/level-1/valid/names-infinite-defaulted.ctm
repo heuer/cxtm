@@ -1,0 +1,13 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+lmg isa person;
+  - lastname: "Garshol";
+  - lastname: "Garshol ".
+
+lastname isa tmcl:name-type.
+person isa tmcl:topic-type.
+
+c isa tmcl:topic-name-constraint.
+tmcl:constrained-topic-type(tmcl:constraint: c, tmcl:constrained: person)
+tmcl:constrained-statement(tmcl:constraint: c, tmcl:constrained: lastname)

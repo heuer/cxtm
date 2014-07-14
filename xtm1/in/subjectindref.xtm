@@ -1,0 +1,19 @@
+<topicMap 
+   xmlns="http://www.topicmaps.org/xtm/1.0/"
+   xmlns:xlink='http://www.w3.org/1999/xlink'> 
+
+  <topic id="lmg">
+    <baseName>
+      <baseNameString>Lars Marius Garshol</baseNameString>
+      <variant>
+        <parameters>
+	  <subjectIndicatorRef xlink:href="http://psi.example.org/sort"/>
+        </parameters>
+        <variantName>
+	  <resourceData>Garshol, Lars Marius</resourceData>
+	</variantName>
+      </variant>
+    </baseName>    
+  </topic>
+
+</topicMap>

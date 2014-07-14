@@ -1,0 +1,47 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+%prefix tmdm http://psi.topicmaps.org/iso13250/model/
+
+def has-occurrence($tt, $ot, $min, $max)
+  ?c isa tmcl:topic-occurrence-constraint;
+    tmcl:card-min: $min;
+    tmcl:card-max: $max.
+  
+  tmcl:constrained-topic-type(tmcl:constraint : ?c, tmcl:constrained : $tt)  
+  tmcl:constrained-statement(tmcl:constraint : ?c, tmcl:constrained : $ot)
+end
+
+def has-scope($st, $tt, $min, $max)
+  ?c isa tmcl:scope-constraint;
+    tmcl:card-min: $min;
+    tmcl:card-max: $max.
+  
+  tmcl:constrained-statement(tmcl:constraint : ?c, tmcl:constrained : $st)
+  tmcl:constrained-scope(tmcl:constraint : ?c, tmcl:constrained : $tt)
+end
+
+def requires-scope($tt, $st, $t, $min, $max)
+  ?c isa tmcl:scope-required-constraint;
+  tmcl:card-min: $min;
+  tmcl:card-max: $max.
+
+  tmcl:constrained-topic-type(tmcl:constraint : ?c, tmcl:constrained : $tt)
+  tmcl:constrained-statement(tmcl:constraint : ?c, tmcl:constrained : $st)
+  tmcl:constrained-scope-topic(tmcl:constraint : ?c, tmcl:constrained : $t)
+end
+
+description isa tmcl:occurrence-type;
+  has-scope(language, 1, 1).
+
+language isa tmcl:topic-type;
+  has-occurrence(description, 0, *);
+  requires-scope(description, english, 1, 1);
+  requires-scope(description, norwegian, 1, 1).
+
+norwegian isa language;
+  description: "Very nice language" @ english;
+  description: "Flott språk" @ norwegian.
+
+english isa language;
+  description: "Very nice language" @ english;
+  description: "Flott språk" @ norwegian.

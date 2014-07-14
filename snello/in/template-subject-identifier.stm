@@ -1,0 +1,4 @@
+
+template $iri :- $iri..
+
+template(<http://psi.example.org/fake>)

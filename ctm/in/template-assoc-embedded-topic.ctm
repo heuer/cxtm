@@ -1,0 +1,7 @@
+
+# included because this particular construction caused a NullPointerException
+# in the OKS CTM parser at one point in its life.
+
+def tpl()
+    assoc([-"name"] : foo)
+end

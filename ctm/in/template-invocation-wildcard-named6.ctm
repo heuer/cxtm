@@ -1,0 +1,12 @@
+
+def tpl()
+    ?foo - "tpl1".
+    tpl2(?foo)
+end
+
+def tpl2($t)
+    $t - "name from tpl2".
+    ?foo - "tpl2".
+end
+
+tpl()

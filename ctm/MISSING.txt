@@ -1,0 +1,15 @@
+=============
+Missing Tests
+=============
+
+Valid tests
+-----------
+* More nested topics tests, like person: [-"John" [-"Homepage"]: http://...]
+* IRI schemes != http
+* More template tests
+
+Invalid tests
+-------------
+* Duplicate template names
+* Infinite template loops?
+

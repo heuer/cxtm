@@ -1,0 +1,12 @@
+
+def tpl()
+    ?foo - "tpl1".
+    tpl2()
+    ?foo - "still tpl1".
+end
+
+def tpl2()
+    ?foo - "tpl2".
+end
+
+tpl()

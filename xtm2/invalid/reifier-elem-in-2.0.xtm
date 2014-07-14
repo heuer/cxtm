@@ -1,0 +1,10 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.0">
+  <reifier>
+    <topicRef href="#tmtopic"/>
+  </reifier>
+  <topic id="tmtopic">
+    <name>
+      <value>Topic map</value>
+    </name>
+  </topic>
+</topicMap>

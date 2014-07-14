@@ -1,0 +1,9 @@
+
+tpl() :- 
+    %alias vertigo http://www.example.org/vertigo
+    vertigo
+
+.
+
+vertigo
+

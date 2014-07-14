@@ -1,0 +1,3 @@
+%include <include-wildcard2.sub>
+
+?foo - "Master".

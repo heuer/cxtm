@@ -1,0 +1,86 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#located</locator>
+</itemIdentifiers>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#located-in</locator>
+</itemIdentifiers>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#location</locator>
+</itemIdentifiers>
+</topic>
+<topic number="4">
+<itemIdentifiers>
+<locator>#capital</locator>
+<locator>include.sub#capital</locator>
+</itemIdentifiers>
+</topic>
+<topic number="5">
+<itemIdentifiers>
+<locator>#is-capital-of</locator>
+<locator>include.sub#is-capital-of</locator>
+</itemIdentifiers>
+</topic>
+<topic number="6">
+<itemIdentifiers>
+<locator>#norway</locator>
+<locator>include.sub#norway</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Norway</value>
+<type topicref="9"></type>
+</name>
+<rolePlayed ref="association.1.role.1"></rolePlayed>
+<rolePlayed ref="association.2.role.1"></rolePlayed>
+</topic>
+<topic number="7">
+<itemIdentifiers>
+<locator>#oslo</locator>
+<locator>include.sub#oslo</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Oslo</value>
+<type topicref="9"></type>
+</name>
+<rolePlayed ref="association.1.role.2"></rolePlayed>
+<rolePlayed ref="association.2.role.2"></rolePlayed>
+</topic>
+<topic number="8">
+<itemIdentifiers>
+<locator>#region</locator>
+<locator>include.sub#region</locator>
+</itemIdentifiers>
+</topic>
+<topic number="9">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<association number="1">
+<type topicref="2"></type>
+<role number="1">
+<player topicref="6"></player>
+<type topicref="3"></type>
+</role>
+<role number="2">
+<player topicref="7"></player>
+<type topicref="1"></type>
+</role>
+</association>
+<association number="2">
+<type topicref="5"></type>
+<role number="1">
+<player topicref="6"></player>
+<type topicref="8"></type>
+</role>
+<role number="2">
+<player topicref="7"></player>
+<type topicref="4"></type>
+</role>
+</association>
+</topicMap>

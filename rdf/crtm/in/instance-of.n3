@@ -1,0 +1,4 @@
+@prefix ex: <http://psi.example.org/>.
+
+<#john> ex:isa ex:Person .
+

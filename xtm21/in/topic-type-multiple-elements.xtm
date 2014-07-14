@@ -1,0 +1,9 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.1">
+  <topic id="instance">
+    <instanceOf>
+      <subjectLocatorRef href="#type1"/>
+      <subjectIdentifierRef href="#type2"/>
+      <topicRef href="#type3"/>
+    </instanceOf>
+  </topic>
+</topicMap>

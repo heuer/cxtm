@@ -1,0 +1,5 @@
+template $t=>topic :- $t
+
+.
+
+template()

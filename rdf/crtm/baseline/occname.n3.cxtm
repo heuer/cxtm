@@ -1,0 +1,88 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>#george</locator>
+</subjectIdentifiers>
+<name number="1">
+<value>George</value>
+<type topicref="7"></type>
+</name>
+<occurrence number="1">
+<value>http://www.example.org/c</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<type topicref="11"></type>
+</occurrence>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>#john</locator>
+</subjectIdentifiers>
+<name number="1">
+<value>John</value>
+<type topicref="5"></type>
+</name>
+<occurrence number="1">
+<value>http://www.example.org/a</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<type topicref="9"></type>
+</occurrence>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>#paul</locator>
+</subjectIdentifiers>
+<name number="1">
+<value>Paul</value>
+<type topicref="6"></type>
+</name>
+<occurrence number="1">
+<value>http://www.example.org/b</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<type topicref="10"></type>
+</occurrence>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>#ringo</locator>
+</subjectIdentifiers>
+<name number="1">
+<value>Ringo</value>
+<type topicref="8"></type>
+</name>
+</topic>
+<topic number="5">
+<subjectIdentifiers>
+<locator>http://psi.example.org/name1</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="6">
+<subjectIdentifiers>
+<locator>http://psi.example.org/name2</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="7">
+<subjectIdentifiers>
+<locator>http://psi.example.org/name3</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="8">
+<subjectIdentifiers>
+<locator>http://psi.example.org/name4</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="9">
+<subjectIdentifiers>
+<locator>http://psi.example.org/occ1</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="10">
+<subjectIdentifiers>
+<locator>http://psi.example.org/occ2</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="11">
+<subjectIdentifiers>
+<locator>http://psi.example.org/occ3</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

@@ -1,0 +1,8 @@
+
+def template($iri1, $iri2)
+    topic1 $iri1.
+    topic2 $iri2.
+end
+
+template(<http://www.example.org/>,     # valid
+        ^<http://www.example.org/>)     # invalid

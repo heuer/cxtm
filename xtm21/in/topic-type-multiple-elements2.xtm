@@ -1,0 +1,10 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.1">
+  <topic>
+    <subjectIdentifier href="http://psi.example.org/xtm"/>
+    <instanceOf>
+      <subjectLocatorRef href="#type1"/>
+      <subjectIdentifierRef href="#type2"/>
+      <topicRef href="#type3"/>
+    </instanceOf>
+  </topic>
+</topicMap>

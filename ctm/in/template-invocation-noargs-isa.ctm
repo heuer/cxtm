@@ -1,0 +1,9 @@
+
+# A tpl invocation with no args in combinatation with "isa" 
+# caused an error in Semagia's CTM implementation
+
+def tpl()
+  this isa topic.
+end
+
+tpl()

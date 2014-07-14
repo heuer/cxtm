@@ -1,0 +1,2 @@
+topic
+    occtype: 0000-01-02.  # See <http://www.w3.org/TR/xmlschema-2/#dateTime> "[...] '0000' is prohibited [...]"

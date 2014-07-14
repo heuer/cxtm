@@ -1,0 +1,42 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#comic</locator>
+</itemIdentifiers>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#country</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Country</value>
+<type topicref="5"></type>
+</name>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#joeaverage</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Joe Average</value>
+<type topicref="5"></type>
+<scope>
+<scopingTopic topicref="1"></scopingTopic>
+</scope>
+</name>
+</topic>
+<topic number="4">
+<itemIdentifiers>
+<locator>#johndoe</locator>
+</itemIdentifiers>
+<name number="1">
+<value>John Doe</value>
+<type topicref="5"></type>
+</name>
+</topic>
+<topic number="5">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

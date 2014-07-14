@@ -1,0 +1,3 @@
+%prefix a http://psi.example.org/
+
+tm-syntax ako a:syntax.

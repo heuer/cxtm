@@ -1,0 +1,5 @@
+%prefix _ <http://www.example.org/base.ctm#>
+
+^ _:assoctype(^ _:roletype: ^ _:topic ~ ^ _:reifier)
+
+^ _:assoctype(^ _:roletype: ^ _:topic ~ ^ _:reifier)

@@ -1,0 +1,6 @@
+
+def tpl($t)
+    $t - "name2".
+end
+
+tpl([-"name"])

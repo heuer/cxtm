@@ -1,0 +1,20 @@
+topic1.
+#( 
+
+    comment 1 start
+
+
+#(
+
+topic2.  <-- not a topic!
+
+# Single line comment
+
+)#
+
+# Another single line comment
+
+    comment 1 end
+
+)#
+topic3.

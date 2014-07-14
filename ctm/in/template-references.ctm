@@ -1,0 +1,18 @@
+%prefix ex http://psi.example.org/ex/ 
+
+# checking that different kinds of references inside an uninvoked template
+# do not create topics in the output. going through all types of references
+# not tested elsewhere.
+def template()
+ # subject locator
+ = http://psi.example.org/ex/foo isa = http://psi.example.org/ex/bar .
+
+ # subject identifier
+ http://psi.example.org/ex/foo isa http://psi.example.org/ex/bar .
+
+ # item identifier
+ ^ http://psi.example.org/ex/foo isa ^ http://psi.example.org/ex/bar .
+
+ # qname
+  ex:foo isa ex:bar .
+end

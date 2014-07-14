@@ -1,0 +1,14 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.0">
+  <topic id="topic">
+    <itemIdentity href="http://example.org/#topic"/>
+    <name>
+      <value>Topics</value>
+    </name>
+  </topic>
+  <topic id="topic2">
+    <itemIdentity href="http://example.org/#topic"/>
+    <name>
+      <value>Topics 2</value>
+    </name>
+  </topic>
+</topicMap>

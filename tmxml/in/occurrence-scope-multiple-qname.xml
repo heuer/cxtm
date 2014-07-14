@@ -1,0 +1,11 @@
+<topicmap xmlns:tech="http://psi.example.org/technology/"
+          xmlns:tm="http://psi.ontopia.net/xml/tm-xml/"
+          xmlns:lang="http://psi.example.org/lang/"
+          xmlns:iso="http://psi.topicmaps.org/iso13250/model/">
+
+  <tech:syntax id="tmxml">
+    <tm:identifier>http://psi.example.org/technology/tmxml</tm:identifier>
+    <description scope="lang:en lang:us whatever">A nice, compact TM syntax.</description>
+  </tech:syntax>
+
+</topicmap>

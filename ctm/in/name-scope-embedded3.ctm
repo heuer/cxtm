@@ -1,0 +1,7 @@
+
+def descr($t)
+  $t description: "I am embedded".
+end
+
+topic
+- "Name"@[-"Theme-1"@[-"This sucks"; descr()], de; - "theme-1"@en; descr()],[-"Theme-2"@de; - "theme-2"@en; descr()].

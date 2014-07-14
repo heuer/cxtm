@@ -1,0 +1,5 @@
+/*
+  <http://code.google.com/p/ontopia/issues/detail?id=236>
+*/
+#TOPICMAP apollonia
+#INCLUDE "bug-1402.sub"

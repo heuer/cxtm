@@ -1,0 +1,11 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+foo isa bar; isa baz.
+
+c isa tmcl:overlap-declaration.
+tmcl:overlaps(tmcl:allows: c, tmcl:allowed: bar)
+tmcl:overlaps(tmcl:allows: c, tmcl:allowed: baz)
+
+bar isa tmcl:topic-type.
+baz isa tmcl:topic-type.

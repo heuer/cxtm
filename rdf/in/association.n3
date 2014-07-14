@@ -1,0 +1,7 @@
+@prefix rtm: <http://psi.ontopia.net/rdf2tm/#>.
+
+<#john> <#member-of> <#the-beatles>.
+
+<#member-of> rtm:maps-to rtm:association .
+<#member-of> rtm:subject-role <http://psi.example.org/member> .
+<#member-of> rtm:object-role <http://psi.example.org/group> .

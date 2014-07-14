@@ -1,0 +1,6 @@
+beatle $p :-  is-member-of $p, beatles.
+
+is-member-of $member, $group :- 
+    member-of(member: $member, group: $group) .
+
+beatle(john)

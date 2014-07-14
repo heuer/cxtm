@@ -1,0 +1,6 @@
+#
+# In one of the CTM drafts, xsd was bound to <http://www.w3.org/2001/XMLSchema#>
+# This binding was removed from CTM
+#
+
+foo occ: "1"^^xsd:int .

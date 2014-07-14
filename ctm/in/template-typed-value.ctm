@@ -1,0 +1,5 @@
+def template($value)
+  topic occtype: $value.
+end
+
+template(1)

@@ -1,0 +1,76 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#beg</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Bjørg England Garshol</value>
+<type topicref="8"></type>
+</name>
+<rolePlayed ref="association.1.role.1"></rolePlayed>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#child</locator>
+</itemIdentifiers>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#father</locator>
+</itemIdentifiers>
+</topic>
+<topic number="4">
+<itemIdentifiers>
+<locator>#kfg</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Knut Finn Garshol</value>
+<type topicref="8"></type>
+</name>
+<rolePlayed ref="association.1.role.2"></rolePlayed>
+</topic>
+<topic number="5">
+<itemIdentifiers>
+<locator>#lmg</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Lars Marius Garshol</value>
+<type topicref="8"></type>
+</name>
+<rolePlayed ref="association.1.role.3"></rolePlayed>
+</topic>
+<topic number="6">
+<itemIdentifiers>
+<locator>#mother</locator>
+</itemIdentifiers>
+</topic>
+<topic number="7">
+<itemIdentifiers>
+<locator>#parent-child</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Parent/child</value>
+<type topicref="8"></type>
+</name>
+</topic>
+<topic number="8">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<association number="1">
+<type topicref="7"></type>
+<role number="1">
+<player topicref="1"></player>
+<type topicref="6"></type>
+</role>
+<role number="2">
+<player topicref="4"></player>
+<type topicref="3"></type>
+</role>
+<role number="3">
+<player topicref="5"></player>
+<type topicref="2"></type>
+</role>
+</association>
+</topicMap>

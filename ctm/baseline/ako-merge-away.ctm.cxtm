@@ -1,0 +1,67 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#animal</locator>
+</itemIdentifiers>
+<rolePlayed ref="association.1.role.1"></rolePlayed>
+<rolePlayed ref="association.2.role.1"></rolePlayed>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#dog</locator>
+</itemIdentifiers>
+<rolePlayed ref="association.1.role.2"></rolePlayed>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#person</locator>
+</itemIdentifiers>
+<rolePlayed ref="association.2.role.2"></rolePlayed>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/subtype</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#hoho</locator>
+</itemIdentifiers>
+</topic>
+<topic number="5">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/supertype</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#hehe</locator>
+</itemIdentifiers>
+</topic>
+<topic number="6">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/supertype-subtype</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#haha</locator>
+</itemIdentifiers>
+</topic>
+<association number="1">
+<type topicref="6"></type>
+<role number="1">
+<player topicref="1"></player>
+<type topicref="5"></type>
+</role>
+<role number="2">
+<player topicref="2"></player>
+<type topicref="4"></type>
+</role>
+</association>
+<association number="2">
+<type topicref="6"></type>
+<role number="1">
+<player topicref="1"></player>
+<type topicref="5"></type>
+</role>
+<role number="2">
+<player topicref="3"></player>
+<type topicref="4"></type>
+</role>
+</association>
+</topicMap>

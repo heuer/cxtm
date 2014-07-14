@@ -1,0 +1,16 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/1.0/"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+<topic id="topic">
+    <baseName>
+        <scope><topicRef xlink:href="#plural"/></scope>
+        <baseNameString>Topics</baseNameString>
+    </baseName>
+    <baseName>
+        <scope><topicRef xlink:href="#flertall"/></scope>
+        <baseNameString>Topics</baseNameString>
+    </baseName>
+</topic>
+<topic id="plural">
+    <subjectIdentity><topicRef xlink:href="#flertall"/></subjectIdentity>
+</topic>
+</topicMap>

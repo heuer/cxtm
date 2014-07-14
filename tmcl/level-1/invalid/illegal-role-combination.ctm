@@ -1,0 +1,55 @@
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+def role-combination($at, $rt, $tt, $ort, $ott)
+  ?c isa tmcl:role-combination-constraint.
+  tmcl:constrained-statement(tmcl:constraint: ?c, tmcl:constrained: $at)
+  tmcl:constrained-role(tmcl:constraint: ?c, tmcl:constrained: $rt)
+  tmcl:constrained-topic-type(tmcl:constraint: ?c, tmcl:constrained: $tt)
+  tmcl:other-constrained-role(tmcl:constraint: ?c, tmcl:constrained: $ort)
+  tmcl:other-constrained-topic-type(tmcl:constraint: ?c, tmcl:constrained: $ott)
+end
+
+def has-role($at, $rt, $min, $max)
+  ?c isa tmcl:association-role-constraint;
+    tmcl:card-min: $min;
+    tmcl:card-max: $max.
+  
+  tmcl:constrained-statement(tmcl:constraint : ?c, tmcl:constrained : $at)
+  tmcl:constrained-role(tmcl:constraint : ?c, tmcl:constrained : $rt)
+end
+
+def plays-role($tt, $rt, $at, $min, $max)
+  ?c isa tmcl:topic-role-constraint;
+    tmcl:card-min: $min;
+    tmcl:card-max: $max.
+  
+  tmcl:constrained-topic-type(tmcl:constraint : ?c, tmcl:constrained : $tt)  
+  tmcl:constrained-statement(tmcl:constraint : ?c, tmcl:constrained : $at)
+  tmcl:constrained-role(tmcl:constraint : ?c, tmcl:constrained : $rt)
+end
+
+contained-in isa tmcl:association-type;
+  has-role(containee, 1, 1);
+  has-role(container, 1, 1);
+  role-combination(containee, city, container, province);
+  role-combination(containee, province, container, country);
+  role-combination(containee, country, container, continent).
+
+continent isa tmcl:topic-type;
+  plays-role(container, contained-in, 0, *).
+country isa tmcl:topic-type;
+  plays-role(container, contained-in, 0, *);
+  plays-role(containee, contained-in, 0, *).
+province isa tmcl:topic-type;
+  plays-role(container, contained-in, 0, *);
+  plays-role(containee, contained-in, 0, *).
+city isa tmcl:topic-type;
+  plays-role(containee, contained-in, 0, *).
+
+contained-in(containee: oslo, container: europe)
+
+oslo isa city.
+europe isa continent.
+
+containee isa tmcl:role-type.
+container isa tmcl:role-type.

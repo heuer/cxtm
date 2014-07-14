@@ -1,0 +1,10 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+lmg isa person.
+person isa tmcl:topic-type.
+
+employed-by(employee: lmg)
+
+employed-by isa tmcl:association-type.
+employee isa tmcl:role-type.

@@ -1,0 +1,41 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#country</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Country</value>
+<type topicref="4"></type>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>http://www.ontopia.com/resource#norwegian</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Norwegian</value>
+<type topicref="4"></type>
+<scope>
+<scopingTopic topicref="3"></scopingTopic>
+</scope>
+<variant number="1">
+<value>http://www.npolar.no/Images/norskflagg.gif</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<scope>
+<scopingTopic topicref="2"></scopingTopic>
+<scopingTopic topicref="3"></scopingTopic>
+</scope>
+</variant>
+</name>
+</topic>
+<topic number="3">
+<subjectLocators>
+<locator>http://www.ikke.no/resource</locator>
+</subjectLocators>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

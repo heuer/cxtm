@@ -1,0 +1,31 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#norway</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Norway</value>
+<type topicref="3"></type>
+<scope>
+<scopingTopic topicref="2"></scopingTopic>
+</scope>
+</name>
+</topic>
+<topic number="2">
+<subjectLocators>
+<locator>http://www.topicmaps.org/xtm/1.0/#country</locator>
+</subjectLocators>
+<itemIdentifiers>
+<locator>#country</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Country</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

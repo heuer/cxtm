@@ -1,0 +1,14 @@
+
+This directory contains conformance tests for TMCL, organized as follows:
+
+level-1       Tests for conformance level 1 (ie: no TMQL).
+  bad-schema  Tests where the schema itself is invalid.
+  invalid     Tests where there is one violation of the schema.
+  valid       Tests which are valid.
+
+Each directory contains two versions of each test case with the same
+file name and different extension (a.xtm and a.ctm).
+
+For invalid tests the constraint which is violated will have the ID
+"violated", and, where possible, the construct which violates it will
+have the ID "violator".

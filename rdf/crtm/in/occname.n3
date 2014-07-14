@@ -1,0 +1,16 @@
+@prefix ex: <http://psi.example.org/>.
+
+#
+# This is actually a test if lists in CRTM are working, not a "does it
+# work in N3" test.
+#
+
+<#john> ex:occ1 <http://www.example.org/a>.
+<#paul> ex:occ2 <http://www.example.org/b>.
+<#george> ex:occ3 <http://www.example.org/c>.
+
+<#john> ex:name1 "John".
+<#paul> ex:name2 "Paul".
+<#george> ex:name3 "George".
+<#ringo> ex:name4 "Ringo".
+

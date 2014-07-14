@@ -1,0 +1,6 @@
+﻿#
+# Test for leap seconds, 
+# c.f. <http://projects.topicmapslab.de/issues/2563>
+#
+topic
+occtype: 1976-09-19T12:01:60 .

@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+<title>Topic Maps Test Suite (cxtm-tests)</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<link rel=stylesheet type="text/css" href="default.css">
+</head>
+<body>
+<h1>Topic Maps Test Suite (cxtm-tests)</h1>
+
+<p>
+This is a suite of tests for Topic Maps implementations, based around
+the various Topic Maps syntaxes. The intention is to help developers
+of Topic Maps implementations verify that their implementations are
+actually correct according to the specifications. It can also help
+customers verify whether a particular implementation is actually
+standards-conformant.
+</p>
+
+<p>
+For each syntax, there are two kinds of tests: canonicalization tests
+and invalidity tests. The canonicalization tests consist of one (or
+more, if merging is used) input file in some Topic Maps syntax, and a
+corresponding canonical output (in <a
+href="http://www.isotopicmaps.org/cxtm/">CXTM</a>), showing the
+correct interpretation of the input.  Implementations pass if they
+output a CXTM file identical to the one in the test suite. Invalidity
+tests are invalid inputs which must be rejected by the implementation.
+</p>
+
+<p>
+The 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=104596">current release ($release_version, $release_date)</a> 
+consists of the following tests:
+</p>
+
+<table>
+<tr><th>Syntax
+    <th>Canonicalization tests
+    <th>Invalidity tests
+
+<tr><th><a href="http://www.itscj.ipsj.or.jp/sc34/open/1378.htm">XTM 2.1</a>
+    <td>$xtm21_valid
+    <td>$xtm21_invalid
+
+<tr><th><a href="http://www.isotopicmaps.org/sam/sam-xtm/">XTM 2.0</a>
+    <td>$xtm2_valid
+    <td>$xtm2_invalid
+
+<tr><th><a href="http://topicmaps.org/xtm/1.0/">XTM 1.0</a>
+    <td>$xtm1_valid
+    <td>$xtm1_invalid
+
+<tr><th><a href="http://www.isotopicmaps.org/ctm/">CTM</a>
+    <td>$ctm_valid
+    <td>$ctm_invalid
+
+<tr><th><a href="http://www.ontopia.net/download/ltm.html">LTM 1.3</a>
+    <td>$ltm_valid
+    <td>$ltm_invalid
+
+<tr><th><a href="http://www.ontopia.net/topicmaps/tmxml.html">TM/XML</a>
+    <td>$tmxml_valid
+    <td>$tmxml_invalid
+
+<tr><th><a href="http://www.cerny-online.com/jtm/1.0/">JTM 1.0</a>
+    <td>$jtm_valid
+    <td>$jtm_invalid
+
+<tr><th><a href="http://www.cerny-online.com/jtm/1.1/">JTM 1.1</a>
+    <td>$jtm11_valid
+    <td>$jtm11_invalid
+
+<tr><th><a href="http://www.isotopicmaps.org/tmcl/">TMCL</a>
+    <td>$tmcl_valid
+    <td>$tmcl_invalid
+
+<tr><th>RDF to Topic Maps</a>
+    <td>$rdf_valid
+    <td>$rdf_invalid
+
+<tr><th><a href="http://www.semagia.com/tr/crtm/">CRTM</a>
+    <td>$crtm_valid
+    <td>$crtm_invalid
+
+<tr><th>
+    <td><b>$total_valid
+    <td><b>$total_invalid
+
+</table>
+
+<p>These tests have been verified using the following projects:</p>
+
+<ul>
+  <li><a href="http://mappa.semagia.com/">Mappa</a>
+  <li><a href="http://mio.googlecode.com/">MIO - Topic Maps I/O</a>
+  <li><a href="http://ontopia.googlecode.com/">Ontopia</a>
+  <li><a href="http://tinytim.sourceforge.net/">tinyTiM</a>
+  <li><a href="https://launchpad.net/topiengine">TopiEngine</a>
+</ul>
+
+<p>More tests will be added with time, and it's likely that tests for
+more syntaxes will also be added. If you want to
+get involved, you can find the <a href="https://lists.sourceforge.net/lists/listinfo/cxtm-tests-discuss">mailing list</a>
+and so on on <a href="http://sourceforge.net/projects/cxtm-tests">the SourceForge
+project page</a>.</p>
+
+<p>More information:</p>
+
+<ul>
+  <li><a href="http://www.isotopicmaps.org/cxtm/">CXTM home page</a>
+  <li><a href="http://www.garshol.priv.no/blog/64.html">A CXTM
+  tutorial</a>
+  <li><a href="http://www.garshol.priv.no/blog/63.html">How to
+  make a CXTM test suite</a>
+</ul>
+
+<hr/>
+
+<address>
+${release_date}.
+</address>
+</body>
+</html>

@@ -1,0 +1,8 @@
+
+?foo.
+
+def template()
+    ?foo. ?foo.
+end
+
+template()

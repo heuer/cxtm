@@ -1,0 +1,14 @@
+<topicMap
+   xmlns="http://www.topicmaps.org/xtm/1.0/"
+   xmlns:xlink='http://www.w3.org/1999/xlink'> 
+
+  <topic id="topic">
+    <baseName>
+      <instanceOf>
+        <topicRef xlink:href="#topic-name"/>
+      </instanceOf>
+      <baseNameString>name</baseNameString>
+    </baseName>
+  </topic>
+
+</topicMap>

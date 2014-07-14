@@ -1,0 +1,71 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#contained-in</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Contained in</value>
+<type topicref="6"></type>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#containee</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Containee</value>
+<type topicref="6"></type>
+</name>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#container</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Container</value>
+<type topicref="6"></type>
+</name>
+</topic>
+<topic number="4">
+<itemIdentifiers>
+<locator>#oslo</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Oslo</value>
+<type topicref="6"></type>
+</name>
+<rolePlayed ref="association.1.role.1"></rolePlayed>
+</topic>
+<topic number="5">
+<subjectLocators>
+<locator>http://www.topicmaps.org/xtm/1.0/#no</locator>
+</subjectLocators>
+<itemIdentifiers>
+<locator>#norway</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Norway</value>
+<type topicref="6"></type>
+</name>
+<rolePlayed ref="association.1.role.2"></rolePlayed>
+</topic>
+<topic number="6">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<association number="1">
+<type topicref="1"></type>
+<role number="1">
+<player topicref="4"></player>
+<type topicref="2"></type>
+</role>
+<role number="2">
+<player topicref="5"></player>
+<type topicref="3"></type>
+</role>
+<scope>
+<scopingTopic topicref="5"></scopingTopic>
+</scope>
+</association>
+</topicMap>

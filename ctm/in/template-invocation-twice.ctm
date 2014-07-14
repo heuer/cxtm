@@ -1,0 +1,9 @@
+
+# The OKS parser lost the current topic after template invocations.
+# This test checks for that problem.
+
+def name($t, $v)
+  $t - $v .
+end
+
+topic name("Topic"); name("Emne").

@@ -1,0 +1,28 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#bongo</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Bongo</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#ugga</locator>
+</itemIdentifiers>
+<name number="1">
+<value>ugga</value>
+<type topicref="3"></type>
+<scope>
+<scopingTopic topicref="1"></scopingTopic>
+</scope>
+</name>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

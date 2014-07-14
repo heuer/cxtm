@@ -1,0 +1,78 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#$__1</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Theme-1</value>
+<type topicref="7"></type>
+<scope>
+<scopingTopic topicref="2"></scopingTopic>
+<scopingTopic topicref="4"></scopingTopic>
+</scope>
+</name>
+<name number="2">
+<value>theme-1</value>
+<type topicref="7"></type>
+<scope>
+<scopingTopic topicref="5"></scopingTopic>
+</scope>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#$__2</locator>
+</itemIdentifiers>
+<name number="1">
+<value>This sucks</value>
+<type topicref="7"></type>
+</name>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#$__3</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Theme-2</value>
+<type topicref="7"></type>
+<scope>
+<scopingTopic topicref="4"></scopingTopic>
+</scope>
+</name>
+<name number="2">
+<value>theme-2</value>
+<type topicref="7"></type>
+<scope>
+<scopingTopic topicref="5"></scopingTopic>
+</scope>
+</name>
+</topic>
+<topic number="4">
+<itemIdentifiers>
+<locator>#de</locator>
+</itemIdentifiers>
+</topic>
+<topic number="5">
+<itemIdentifiers>
+<locator>#en</locator>
+</itemIdentifiers>
+</topic>
+<topic number="6">
+<itemIdentifiers>
+<locator>#topic</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Name</value>
+<type topicref="7"></type>
+<scope>
+<scopingTopic topicref="1"></scopingTopic>
+<scopingTopic topicref="3"></scopingTopic>
+</scope>
+</name>
+</topic>
+<topic number="7">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

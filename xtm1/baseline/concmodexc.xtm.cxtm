@@ -1,0 +1,47 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#norway</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Norway</value>
+<type topicref="3"></type>
+</name>
+<occurrence number="1">
+<value>http://www.norge.no/resource</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<type topicref="4"></type>
+</occurrence>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#sweden</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Sweden</value>
+<type topicref="3"></type>
+</name>
+<occurrence number="1">
+<value>http://www.sverige.se/resource</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<type topicref="4"></type>
+</occurrence>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://www.ikke.no/resource</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#ja</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Nei</value>
+<type topicref="3"></type>
+</name>
+</topic>
+</topicMap>

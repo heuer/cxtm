@@ -1,0 +1,24 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>#beatles</locator>
+</subjectIdentifiers>
+<name number="1">
+<value>Fab Four</value>
+<type topicref="3"></type>
+<scope>
+<scopingTopic topicref="2"></scopingTopic>
+</scope>
+</name>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>#nick</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://xmlns.com/foaf/0.1/nick</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

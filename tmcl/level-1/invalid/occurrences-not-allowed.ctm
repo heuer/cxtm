@@ -1,0 +1,8 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+lmg isa person;
+  shoesize: 12.
+
+shoesize isa tmcl:occurrence-type.
+person isa tmcl:topic-type.

@@ -1,0 +1,31 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#lmg</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Lars Marius Garshol</value>
+<type topicref="3"></type>
+<scope>
+<scopingTopic topicref="2"></scopingTopic>
+</scope>
+</name>
+</topic>
+<topic number="2">
+<subjectLocators>
+<locator>http://psi.ontopia.net/bingo</locator>
+</subjectLocators>
+<itemIdentifiers>
+<locator>#bingo</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Bingo</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

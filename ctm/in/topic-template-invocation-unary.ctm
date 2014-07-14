@@ -1,0 +1,6 @@
+
+def has-name($topic)
+    $topic - "Name".
+end
+
+topic has-name().

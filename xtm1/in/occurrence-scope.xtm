@@ -1,0 +1,10 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/1.0/"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+<topic id="topic">
+    <occurrence>
+        <instanceOf><topicRef xlink:href="#occtype"/></instanceOf>
+        <scope><topicRef xlink:href="#english"/></scope>
+        <resourceData>Testing resource data.</resourceData>
+    </occurrence>
+</topic>
+</topicMap>

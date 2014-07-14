@@ -1,0 +1,10 @@
+
+def is-a($instance, $type)
+  type-instance(instance: $instance, type: $type)
+end
+
+def tpl()
+  this is-a(topic).
+end
+
+tpl()

@@ -1,0 +1,13 @@
+<topicMap reifier="1">
+<itemIdentifiers>
+<locator>http://some.random.baseuri/base#--reified--testltm1.3map</locator>
+</itemIdentifiers>
+<topic number="1">
+<subjectIdentifiers>
+<locator>http://some.random.baseuri/base#--reified--testltm1.3map</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#testltm1.3map</locator>
+</itemIdentifiers>
+</topic>
+</topicMap>

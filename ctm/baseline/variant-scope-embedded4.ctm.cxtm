@@ -1,0 +1,165 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#$__1</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Theme-1</value>
+<type topicref="13"></type>
+<scope>
+<scopingTopic topicref="9"></scopingTopic>
+</scope>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#$__2</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Theme-1</value>
+<type topicref="13"></type>
+<scope>
+<scopingTopic topicref="3"></scopingTopic>
+<scopingTopic topicref="9"></scopingTopic>
+</scope>
+</name>
+<name number="2">
+<value>theme-1</value>
+<type topicref="13"></type>
+<scope>
+<scopingTopic topicref="11"></scopingTopic>
+</scope>
+</name>
+<occurrence number="1">
+<value>I am embedded</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="10"></type>
+<scope>
+<scopingTopic topicref="5"></scopingTopic>
+<scopingTopic topicref="8"></scopingTopic>
+</scope>
+</occurrence>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#$__3</locator>
+</itemIdentifiers>
+<name number="1">
+<value>This sucks</value>
+<type topicref="13"></type>
+</name>
+<occurrence number="1">
+<value>I am embedded</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="10"></type>
+<scope>
+<scopingTopic topicref="4"></scopingTopic>
+<scopingTopic topicref="8"></scopingTopic>
+</scope>
+</occurrence>
+</topic>
+<topic number="4">
+<itemIdentifiers>
+<locator>#$__4</locator>
+</itemIdentifiers>
+<occurrence number="1">
+<value>And I am embedded, too</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="10"></type>
+</occurrence>
+</topic>
+<topic number="5">
+<itemIdentifiers>
+<locator>#$__5</locator>
+</itemIdentifiers>
+<occurrence number="1">
+<value>And I am embedded, too</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="10"></type>
+</occurrence>
+</topic>
+<topic number="6">
+<itemIdentifiers>
+<locator>#$__6</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Theme-2</value>
+<type topicref="13"></type>
+<scope>
+<scopingTopic topicref="9"></scopingTopic>
+</scope>
+</name>
+<name number="2">
+<value>theme-2</value>
+<type topicref="13"></type>
+<scope>
+<scopingTopic topicref="11"></scopingTopic>
+</scope>
+</name>
+<occurrence number="1">
+<value>I am embedded</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="10"></type>
+<scope>
+<scopingTopic topicref="7"></scopingTopic>
+<scopingTopic topicref="8"></scopingTopic>
+</scope>
+</occurrence>
+</topic>
+<topic number="7">
+<itemIdentifiers>
+<locator>#$__7</locator>
+</itemIdentifiers>
+<occurrence number="1">
+<value>And I am embedded, too</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="10"></type>
+</occurrence>
+</topic>
+<topic number="8">
+<itemIdentifiers>
+<locator>#bad-example</locator>
+</itemIdentifiers>
+</topic>
+<topic number="9">
+<itemIdentifiers>
+<locator>#de</locator>
+</itemIdentifiers>
+</topic>
+<topic number="10">
+<itemIdentifiers>
+<locator>#description</locator>
+</itemIdentifiers>
+</topic>
+<topic number="11">
+<itemIdentifiers>
+<locator>#en</locator>
+</itemIdentifiers>
+</topic>
+<topic number="12">
+<itemIdentifiers>
+<locator>#topic</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Name</value>
+<type topicref="13"></type>
+<scope>
+<scopingTopic topicref="1"></scopingTopic>
+</scope>
+<variant number="1">
+<value>name</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<scope>
+<scopingTopic topicref="1"></scopingTopic>
+<scopingTopic topicref="2"></scopingTopic>
+<scopingTopic topicref="6"></scopingTopic>
+</scope>
+</variant>
+</name>
+</topic>
+<topic number="13">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

@@ -1,0 +1,5 @@
+def template($topic)
+  $topic - "Foo".
+end
+
+template(1)

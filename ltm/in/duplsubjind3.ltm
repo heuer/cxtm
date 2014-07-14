@@ -1,0 +1,6 @@
+
+[test
+ @"http://www.example.org/resource"]
+
+[test
+ @"http://www.example.org/resource"]

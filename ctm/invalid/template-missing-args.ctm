@@ -1,0 +1,5 @@
+def tpl($one, $two)
+    $one. $two.
+end
+
+tpl(one)

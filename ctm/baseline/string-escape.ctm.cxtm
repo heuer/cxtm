@@ -1,0 +1,25 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#topic</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Quote (") character</value>
+<type topicref="2"></type>
+</name>
+<name number="2">
+<value>Some whitespace 
+&#xD;	</value>
+<type topicref="2"></type>
+</name>
+<name number="3">
+<value>\</value>
+<type topicref="2"></type>
+</name>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

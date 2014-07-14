@@ -1,0 +1,7 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/1.0/"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          id="tm">
+<topic id="reifier">
+    <subjectIdentity><subjectIndicatorRef xlink:href="#tm"/></subjectIdentity>
+</topic>
+</topicMap>

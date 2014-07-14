@@ -1,0 +1,5 @@
+%prefix tmdm http://psi.topicmaps.org/iso13250/model/
+
+ctm isa format.
+
+tmdm:type-instance(tmdm:instance: ctm, tmdm:type: format)

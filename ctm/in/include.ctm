@@ -1,0 +1,3 @@
+%include <include.sub>
+
+located-in(located: oslo, location: norway)

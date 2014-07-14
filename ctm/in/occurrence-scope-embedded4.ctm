@@ -1,0 +1,11 @@
+
+def descr($t)
+  $t description: "I am embedded"@[metoo()], bad-example.
+end
+
+def metoo($t)
+  $t description: "And I am embedded, too".
+end
+
+topic
+occtype: "Occurrence"@[-"Theme-1"@[-"This sucks"; descr()], de; - "theme-1"@en; descr()],[-"Theme-2"@de; - "theme-2"@en; descr()]. 

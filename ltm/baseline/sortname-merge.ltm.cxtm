@@ -1,0 +1,42 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#et</locator>
+</itemIdentifiers>
+<name number="1">
+<value>emnetype</value>
+<type topicref="2"></type>
+<variant number="1">
+<value>~emnetype</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<scope>
+<scopingTopic topicref="3"></scopingTopic>
+</scope>
+</variant>
+</name>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://www.topicmaps.org/xtm/1.0/core.xtm#sort</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#sort</locator>
+</itemIdentifiers>
+<name number="1">
+<value>sort</value>
+<type topicref="2"></type>
+<variant number="1">
+<value>~sort</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<scope>
+<scopingTopic topicref="3"></scopingTopic>
+</scope>
+</variant>
+</name>
+</topic>
+</topicMap>

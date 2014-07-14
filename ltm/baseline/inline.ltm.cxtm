@@ -1,0 +1,17 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#description</locator>
+</itemIdentifiers>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#ltm</locator>
+</itemIdentifiers>
+<occurrence number="1">
+<value>A concise topic map format.</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<type topicref="1"></type>
+</occurrence>
+</topic>
+</topicMap>

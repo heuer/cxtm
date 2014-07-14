@@ -1,0 +1,10 @@
+
+?foo.
+
+def template()
+    ?foo.
+end
+
+template()
+
+?foo. # checking that this is still the same as the first ?foo

@@ -1,0 +1,3 @@
+%prefix _ <http://www.example.org/my-ctm#>
+
+^ _:assoctype(^_:roletype: ^_:topic)

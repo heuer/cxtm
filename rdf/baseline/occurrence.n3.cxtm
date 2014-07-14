@@ -1,0 +1,17 @@
+<topicMap>
+<topic number="1">
+<subjectIdentifiers>
+<locator>#john</locator>
+</subjectIdentifiers>
+<occurrence number="1">
+<value>http://www.example.org/</value>
+<datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+<type topicref="2"></type>
+</occurrence>
+</topic>
+<topic number="2">
+<subjectIdentifiers>
+<locator>#website</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

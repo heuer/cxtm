@@ -1,0 +1,22 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#topic</locator>
+</itemIdentifiers>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>mergemap-tm-reifier-element-topicref.sub#reifier-topicref</locator>
+</itemIdentifiers>
+</topic>
+<topic number="3">
+<subjectLocators>
+<locator>mergemap-tm-reifier-element-slo.sub#reifier-slo</locator>
+</subjectLocators>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>mergemap-tm-reifier-element-sid.sub#reifier-sid</locator>
+</subjectIdentifiers>
+</topic>
+</topicMap>

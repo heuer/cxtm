@@ -1,0 +1,42 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#is-nice</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Is nice</value>
+<type topicref="4"></type>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#nice</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Nice</value>
+<type topicref="4"></type>
+</name>
+</topic>
+<topic number="3">
+<itemIdentifiers>
+<locator>#oslo</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Oslo</value>
+<type topicref="4"></type>
+</name>
+<rolePlayed ref="association.1.role.1"></rolePlayed>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<association number="1">
+<type topicref="1"></type>
+<role number="1">
+<player topicref="3"></player>
+<type topicref="2"></type>
+</role>
+</association>
+</topicMap>

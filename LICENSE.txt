@@ -1,0 +1,8 @@
+The CXTM test suite, created collectively by
+the membership of the cxtm-tests-discuss mailing list
+<https://lists.sourceforge.net/lists/listinfo/cxtm-tests-discuss>,
+is hereby released into the public domain; and comes with 
+NO WARRANTY.
+
+You may use it freely in both commercial and non-commercial 
+applications or use it in any other way you see fit.

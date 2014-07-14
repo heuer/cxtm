@@ -1,0 +1,13 @@
+
+def has-role($at, $rt1)
+  $rt1 isa role-type.
+end
+
+def unary-association($at, $rt1)
+  $at isa association-type;
+    has-role($rt1).
+
+  $rt1 isa role-type.
+end
+
+unary-association(is-alive, person)

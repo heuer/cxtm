@@ -1,0 +1,16 @@
+
+?foo - "Main". #$__1.foo
+
+def template()
+  ?foo - "template".
+end
+
+def template2()
+  ?foo - "template2".
+end
+
+template()  #$__2.foo
+template()  #$__3.foo
+template2() #$__4.foo
+
+?foo - "Main2". #$__1.foo

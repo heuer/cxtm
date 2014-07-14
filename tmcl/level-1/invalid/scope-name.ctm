@@ -1,0 +1,12 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+%prefix tmdm http://psi.topicmaps.org/iso13250/model/
+
+foo isa bar; - "Foo" @ en.
+
+bar isa tmcl:topic-type.
+c isa tmcl:topic-name-constraint;
+  tmcl:card-min: 1;
+  tmcl:card-max: 1.
+tmcl:constrained-topic-type(tmcl:constraint: c, tmcl:constrained: bar)
+tmcl:constrained-statement(tmcl:constraint: c, tmcl:constrained: tmdm:topic-name)

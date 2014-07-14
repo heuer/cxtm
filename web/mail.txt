@@ -1,0 +1,29 @@
+Hi all,
+
+The CXTM-tests project has published a new release of the CXTM test
+suite.
+
+The release $release_version is available here:
+<http://sourceforge.net/projects/cxtm-tests/files/cxtm-tests/cxtm-tests-$release_version.tar.gz/download>
+
+This release contains $total_valid valid tests and $total_invalid tests 
+for invalidity.
+
+Changes
+-------
+$changes
+
+
+What is CXTM-tests?
+-------------------
+It is a suite of tests for Topic Maps implementations, based around
+the various Topic Maps syntaxes. The intention is to help developers
+of Topic Maps implementations verify that their implementations are
+actually correct according to the specifications.
+Each test consists of (at least) one input file with a corresponding
+CXTM file. If a Topic Maps implementation works correctly, it has to
+generate the same canonical output as specified by the reference CXTM
+file.
+
+Best regards,
+the CXTM project

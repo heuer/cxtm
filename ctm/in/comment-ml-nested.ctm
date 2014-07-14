@@ -1,0 +1,17 @@
+topic1.
+#( 
+
+    comment 1 start
+
+
+#(
+
+topic2.  <-- not a topic!
+
+)#
+
+
+    comment 1 end
+
+)#
+topic3.

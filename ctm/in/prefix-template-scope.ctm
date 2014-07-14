@@ -1,0 +1,9 @@
+%prefix ex http://psi.example.org/
+
+def tpl()
+    ex:tpl-fake.
+end
+
+tpl()
+
+ex:fake.

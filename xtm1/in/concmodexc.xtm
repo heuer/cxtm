@@ -1,0 +1,39 @@
+<topicMap 
+   xmlns='http://www.topicmaps.org/xtm/1.0/'
+   xmlns:xlink='http://www.w3.org/1999/xlink'> 
+
+  <topic id='norway'>
+    <baseName>
+      <baseNameString>Norway</baseNameString>
+    </baseName>    
+    <occurrence>
+      <instanceOf>
+        <subjectIndicatorRef xlink:href='http://www.ikke.no/resource'/>
+      </instanceOf>
+      <resourceRef xlink:href="http://www.norge.no/resource"/>
+    </occurrence>
+  </topic>
+
+  <topic id='sweden'>
+    <baseName>
+      <baseNameString>Sweden</baseNameString>
+    </baseName>    
+    <occurrence>
+      <instanceOf>
+        <subjectIndicatorRef xlink:href='http://www.ikke.no/resource'/>
+      </instanceOf>
+      <resourceRef xlink:href="http://www.sverige.se/resource"/>
+    </occurrence>
+  </topic>
+
+  <topic id='ja'>
+    <subjectIdentity>
+        <subjectIndicatorRef xlink:href='http://www.ikke.no/resource'/>
+    </subjectIdentity>
+    <baseName>
+      <baseNameString>Nei</baseNameString>
+    </baseName>    
+  </topic>
+
+</topicMap>
+

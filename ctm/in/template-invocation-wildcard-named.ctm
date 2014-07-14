@@ -1,0 +1,8 @@
+
+def tpl($t, $name)
+    $t - $name.
+end
+
+tpl(?foo, "name")
+
+tpl(?foo, "name")

@@ -1,0 +1,6 @@
+
+def template($iri)
+    topic $iri.
+end
+
+template(<http://psi.example.org/fake>)

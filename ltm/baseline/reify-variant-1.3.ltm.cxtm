@@ -1,0 +1,69 @@
+<topicMap>
+<topic number="1">
+<itemIdentifiers>
+<locator>#scoping-topic</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Scoping topic</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="2">
+<itemIdentifiers>
+<locator>#some-topic</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Just Some Topic</value>
+<type topicref="3"></type>
+<variant number="1" reifier="4">
+<value>Random Topic</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<scope>
+<scopingTopic topicref="1"></scopingTopic>
+</scope>
+<itemIdentifiers>
+<locator>http://some.random.baseuri/base#--reified--reifying-topic1</locator>
+</itemIdentifiers>
+</variant>
+<variant number="2" reifier="5">
+<value>Wee Topic</value>
+<datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+<scope>
+<scopingTopic topicref="1"></scopingTopic>
+</scope>
+<itemIdentifiers>
+<locator>http://some.random.baseuri/base#--reified--reifying-topic2</locator>
+</itemIdentifiers>
+</variant>
+</name>
+</topic>
+<topic number="3">
+<subjectIdentifiers>
+<locator>http://psi.topicmaps.org/iso13250/model/topic-name</locator>
+</subjectIdentifiers>
+</topic>
+<topic number="4">
+<subjectIdentifiers>
+<locator>http://some.random.baseuri/base#--reified--reifying-topic1</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#reifying-topic1</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Reifying topic1</value>
+<type topicref="3"></type>
+</name>
+</topic>
+<topic number="5">
+<subjectIdentifiers>
+<locator>http://some.random.baseuri/base#--reified--reifying-topic2</locator>
+</subjectIdentifiers>
+<itemIdentifiers>
+<locator>#reifying-topic2</locator>
+</itemIdentifiers>
+<name number="1">
+<value>Reifying topic2</value>
+<type topicref="3"></type>
+</name>
+</topic>
+</topicMap>

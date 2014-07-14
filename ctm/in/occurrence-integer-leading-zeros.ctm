@@ -1,0 +1,13 @@
+
+#
+# Various integer with leading zeros tests
+# 
+
+topic
+  o1: 001;
+  o2: +001;
+  o3: -001;
+  o4: 000100;
+  o5: 000000;
+  o6: +000000;
+  o7: -000000.

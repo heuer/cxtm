@@ -1,0 +1,6 @@
+
+def template($iri)
+    = $iri.
+end
+
+template(<http://www.example.org/>)

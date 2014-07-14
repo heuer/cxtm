@@ -1,0 +1,7 @@
+
+def tpl()
+    ?foo - "name".
+    ?foo - "name".
+end
+
+tpl()

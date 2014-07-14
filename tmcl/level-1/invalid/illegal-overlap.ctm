@@ -1,0 +1,7 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+violator isa foo; isa bar.
+
+foo isa tmcl:topic-type.
+bar isa tmcl:topic-type.

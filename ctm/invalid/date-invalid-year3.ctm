@@ -1,0 +1,6 @@
+#
+# See <http://www.w3.org/TR/xmlschema-2/#dateTime> 
+# "[...] also note that a plus sign is not permitted [...]"
+# 
+topic
+    occtype: +2000-01-02.

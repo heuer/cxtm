@@ -1,0 +1,5 @@
+
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+
+foo bar: "Foo".
+bar isa tmcl:occurrence-type .

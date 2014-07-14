@@ -1,0 +1,29 @@
+<topicMap
+    xmlns="http://www.topicmaps.org/xtm/"
+    version="2.0">
+
+  <association>
+    <type>
+      <topicRef href="#assoctype"/>
+    </type>
+    <role reifier="#reifier1">  <!-- role 1 -->
+      <type>
+        <topicRef href="#roletype1"/>
+      </type>
+      <topicRef href="#player1"/>
+    </role>
+  </association>
+
+  <association>
+    <type>
+      <topicRef href="#assoctype2"/>
+    </type>
+    <role reifier="#reifier1">  <!-- Same signature as role 1 and same reifier as role 1 but the parent is not equal: BOOOM!!! -->
+      <type>
+        <topicRef href="#roletype1"/>
+      </type>
+      <topicRef href="#player1"/>
+    </role>
+  </association>
+
+</topicMap>

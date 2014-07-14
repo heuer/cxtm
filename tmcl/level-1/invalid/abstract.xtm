@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.0">
+  <topic id="violated">
+    <itemIdentity href="file:/Users/larsga/cvs-co/cxtm-tests/trunk/tmcl/level-1/invalid/abstract.ctm#violated"></itemIdentity>
+    <instanceOf>
+      <topicRef href="#id4"></topicRef>
+    </instanceOf>
+  </topic>
+  <topic id="id2">
+    <subjectIdentifier href="http://psi.topicmaps.org/tmcl/topic-type"></subjectIdentifier>
+  </topic>
+  <topic id="id9">
+    <subjectIdentifier href="http://psi.topicmaps.org/tmcl/constrained"></subjectIdentifier>
+  </topic>
+  <topic id="id7">
+    <subjectIdentifier href="http://psi.topicmaps.org/tmcl/constrains"></subjectIdentifier>
+  </topic>
+  <topic id="violator">
+    <itemIdentity href="file:/Users/larsga/cvs-co/cxtm-tests/trunk/tmcl/level-1/invalid/abstract.ctm#violator"></itemIdentity>
+    <instanceOf>
+      <topicRef href="#abstract-type"></topicRef>
+    </instanceOf>
+  </topic>
+  <topic id="id5">
+    <subjectIdentifier href="http://psi.topicmaps.org/tmcl/constrained-topic-type"></subjectIdentifier>
+  </topic>
+  <topic id="id4">
+    <subjectIdentifier href="http://psi.topicmaps.org/tmcl/abstract-constraint"></subjectIdentifier>
+  </topic>
+  <topic id="abstract-type">
+    <itemIdentity href="file:/Users/larsga/cvs-co/cxtm-tests/trunk/tmcl/level-1/invalid/abstract.ctm#abstract-type"></itemIdentity>
+    <instanceOf>
+      <topicRef href="#id2"></topicRef>
+    </instanceOf>
+  </topic>
+  <association>
+    <type>
+      <topicRef href="#id5"></topicRef>
+    </type>
+    <role>
+      <type>
+        <topicRef href="#id7"></topicRef>
+      </type>
+      <topicRef href="#violated"></topicRef>
+    </role>
+    <role>
+      <type>
+        <topicRef href="#id9"></topicRef>
+      </type>
+      <topicRef href="#abstract-type"></topicRef>
+    </role>
+  </association>
+</topicMap>

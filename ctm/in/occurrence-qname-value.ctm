@@ -1,0 +1,4 @@
+%prefix w http://en.wikipedia.org/wiki/
+
+john 
+  wikipedia: w:John_Lennon.
