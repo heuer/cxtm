@@ -1,0 +1,9 @@
+<topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.1">
+  <topic>
+    <itemIdentity href="http://www.example.org/ontopia-issue-28"/>
+  </topic>
+  <topic>
+    <subjectIdentifier href="http://www.example.org/ontopia-issue-28"/>
+    <subjectIdentifier href="ftp://www.example.org/ontopia-issue-28"/>
+  </topic>
+</topicMap>
