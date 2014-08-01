@@ -1,16 +1,1 @@
-*.xml text
-*.cxtm text
-*.xtm text
-*.ctm text
-*.jtm text
-*.stm text
-*.tmcl text
-*.ltm text
-*.rdf text
-*.n3 text
-*.nt text
-*.trig text
-*.trix text
-*.ttl text
-*.html text
-*.xhtml text
+*.cxtm text eol=lf
