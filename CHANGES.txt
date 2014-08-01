@@ -6,9 +6,8 @@ Changes
 -----------------
 * Added CTM QName tests
 * Added invalid CTM template tests
-* Added CTM tests for date/time values
-* Added CTM tests for decimal values
-* Added tests XTM 2.0 and 2.1 tests for merging topics via mergemap
+* Added CTM tests for date/time and decimal values
+* Added XTM 2.0 and 2.1 tests for merging topics via mergemap
   (same item identifier/subject identifier)
 
 
