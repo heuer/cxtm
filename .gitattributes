@@ -1,1 +1,3 @@
 *.cxtm text eol=lf
+*.ctm binary
+*.xtm binary
