@@ -7,3 +7,5 @@ in Compact RTM syntax.
 
 Compact RTM is a non-RDF, non-standard syntax which can be used
 to describe a RDF -> Topic Maps mapping compactly.
+
+See <http://www.semagia.com/tr/crtm/>
